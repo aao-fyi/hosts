@@ -22,25 +22,35 @@ build:
     # Checkout
     - git checkout -b build
   script:
-    # Find hosts directories
-    - hosts_dirs=($(find . -type f -name "hosts" -exec dirname {} \; | sort -u));
-    # Build in each hosts directory
+    # Find hosts files
+    - hosts_files=($(find data -type f -name "*.txt" | sort))
+
+    # Build each hosts file
     - |
-      for service in "${hosts_dirs[@]}"; do
-        # Files
-        hosts_file="${service}/hosts"
-        block_dns_file="${service}/hosts-block-dns.txt"
-        block_ubo_file="${service}/hosts-block-ubo.txt"
+      for hosts_file in "${hosts_files[@]}"; do
+        service_path=$(dirname "$hosts_file")
+        service_path=${service_path#"data/"}
 
-        # Generate DNS list
-        awk -v file="$hosts_file" '{ printf "0.0.0.0 " }{ gsub("\\.", "\\\\&", $0); printf "(^|\\.)%s$", $0; printf "\n" }' "$hosts_file" > "$block_dns_file"
+        service_name=$(basename "$hosts_file" .txt)
 
-        # Generate UBO list
-        awk -v file="$hosts_file" '{ printf "||%s^\n", $0 }' "$hosts_file" > "$block_ubo_file"
+        mkdir -p "${service_path}"
+
+        # Generate DNS block
+        awk '{ printf "0.0.0.0 (^|\\.)%s$\\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-block-dns.txt"
+
+        # Generate UBO block
+        awk '{ printf "||%s^\\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-block-ubo.txt"
+
+        # Generate UBO allow
+        awk '{ printf "@@||%s^\\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-allow-ubo.txt"
 
         # Calculate SHA-256 checksum
-        sha256sum "$block_dns_file" | awk '{print $1}' > "${block_dns_file}.sum"
-        sha256sum "$block_ubo_file" | awk '{print $1}' > "${block_ubo_file}.sum"
+        for output_file in "${service_path}/${service_name}"/*.txt; do
+          if [[ -f "$output_file" ]]; then
+            sum_file="${output_file%.*}.sum"
+            sha256sum "$output_file" | awk '{print $1}' > "$sum_file"
+          fi
+        done
       done
     # Commit changes
     - git add .
