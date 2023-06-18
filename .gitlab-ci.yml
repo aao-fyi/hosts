@@ -36,13 +36,13 @@ build:
         mkdir -p "${service_path}"
 
         # Generate DNS block
-        awk '{ printf "0.0.0.0 (^|\\.)%s$\\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-block-dns.txt"
+        awk '{ printf "0.0.0.0 "; gsub("\\.", "\\\\&", $0); printf "(^|\\.)%s$", $0; printf "\n" }' "$hosts_file" > "${service_path}/${service_name}-block-dns.txt"
 
         # Generate UBO block
-        awk '{ printf "||%s^\\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-block-ubo.txt"
+        awk '{ printf "||%s^\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-block-ubo.txt"
 
         # Generate UBO allow
-        awk '{ printf "@@||%s^\\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-allow-ubo.txt"
+        awk '{ printf "@@||%s^\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-allow-ubo.txt"
 
         # Calculate SHA-256 checksum
         for output_file in "${service_path}/${service_name}"/*.txt; do
