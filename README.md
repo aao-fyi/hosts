@@ -9,3 +9,5 @@ These lists target entire services, they are intended for use only if you don't 
   - May impact WhatsApp, but WhatsApp domains are not included.
 + TikTok
   - Blocks TikTok and ByteDance.
++ Twitter
+  - Blocks Twitter and Periscope.
