@@ -45,7 +45,7 @@ build:
         awk '{ printf "@@||%s^\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-allow-ubo.txt"
 
         # Calculate SHA-256 checksum
-        for output_file in "${service_path}/${service_name}"/*.txt; do
+        for output_file in "${service_path}"/*.txt; do
           if [[ -f "$output_file" ]]; then
             sum_file="${output_file%.*}.sum"
             sha256sum "$output_file" | awk '{print $1}' > "$sum_file"
