@@ -33,10 +33,12 @@ tiktokcdn.com
 tiktokcdn-com.akamaized.net
 tiktokcdn.com.edgekey.net
 tiktokcdn.com.edgesuite.net
+tiktokd.org
 tiktokv.com
 tiktokv.com.akamaized.net
 tiktokv.com.edgekey.net
 tiktokv.com.edgesuite.net
+tlivecdn.com
 toutiao.com
 toutiao.com.w.cdngslb.com
 toutiao50.com
@@ -45,3 +47,6 @@ toutiao50.com.edgekey.net
 toutiao50.com.edgesuite.net
 toutiaocloud.com
 toutiaocloud.net
+ttlivecdn.com
+ttoversea.net
+ttoverseaus.net
