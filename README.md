@@ -21,3 +21,12 @@ These lists target entire services, they are intended for use only if you don't 
 
 ## Contributing
 Make changes to hostname lists in the `data` directory.
+
+## License
+Hosts is distributed under the [MIT License](https://gitlab.com/aao-fyi/hosts/-/blob/main/LICENSE).
+
+Meta, Facebook, and Instagram are trademarks of [Meta Platforms, Inc](https://meta.com/).
+
+ByteDance and TikTok are trademarks of [ByteDance Ltd](https://bytedance.com/).
+
+Twitter and Periscope are trademarks of [X Corp](https://twitter.com/).
