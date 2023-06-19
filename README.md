@@ -14,8 +14,8 @@ These lists target entire services, they are intended for use only if you don't 
 + Meta
   - Blocks Meta, Facebook, and Instagram.
   - May impact WhatsApp, but WhatsApp domains are not included.
-+ TikTok
-  - Blocks TikTok and ByteDance.
++ ByteDance
+  - Blocks ByteDance and TikTok.
 + Twitter
   - Blocks Twitter and Periscope.
 
