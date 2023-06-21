@@ -29,23 +29,24 @@ build:
     - |
       for hosts_file in "${hosts_files[@]}"; do
         service_path=$(dirname "$hosts_file")
-        service_path=${service_path#"data/"}
+        static_path="static/"${service_path#"data/"}
+
 
         service_name=$(basename "$hosts_file" .txt)
 
-        mkdir -p "${service_path}"
+        mkdir -p "${static_path}"
 
         # Generate DNS block
-        awk '{ printf "0.0.0.0 "; gsub("\\.", "\\\\&", $0); printf "(^|\\.)%s$", $0; printf "\n" }' "$hosts_file" > "${service_path}/${service_name}-block-dns.txt"
+        awk '{ printf "0.0.0.0 "; gsub("\\.", "\\\\&", $0); printf "(^|\\.)%s$", $0; printf "\n" }' "$hosts_file" > "${static_path}/${service_name}-block-dns.txt"
 
         # Generate UBO block
-        awk '{ printf "||%s^\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-block-ubo.txt"
+        awk '{ printf "||%s^\n", $0 }' "$hosts_file" > "${static_path}/${service_name}-block-ubo.txt"
 
         # Generate UBO allow
-        awk '{ printf "@@||%s^\n", $0 }' "$hosts_file" > "${service_path}/${service_name}-allow-ubo.txt"
+        awk '{ printf "@@||%s^\n", $0 }' "$hosts_file" > "${static_path}/${service_name}-allow-ubo.txt"
 
         # Calculate SHA-256 checksum
-        for output_file in "${service_path}"/*.txt; do
+        for output_file in "${static_path}"/*.txt; do
           if [[ -f "$output_file" ]]; then
             sum_file="${output_file%.*}.sum"
             sha256sum "$output_file" | awk '{print $1}' > "$sum_file"
