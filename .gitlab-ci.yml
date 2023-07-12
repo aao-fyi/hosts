@@ -37,7 +37,7 @@ build:
         mkdir -p "${static_path}"
 
         # Generate DNS block
-        awk '{ printf "0.0.0.0 "; gsub("\\.", "\\\\&", $0); printf "(^\\\\(.+?\\\\.)?)?%s$", $0; printf "\n" }' "$hosts_file" > "${static_path}/${service_name}-block-dns.txt"
+        awk '{ printf "0.0.0.0 "; gsub("\\.", "\\\\&", $0); printf "^(.+?\\.)?%s$", $0; printf "\n" }' "$hosts_file" > "${static_path}/${service_name}-block-dns.txt"
 
         # Generate UBO block
         awk '{ printf "||%s^\n", $0 }' "$hosts_file" > "${static_path}/${service_name}-block-ubo.txt"
