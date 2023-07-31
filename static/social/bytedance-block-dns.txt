@@ -1,76 +1,76 @@
-0.0.0.0 ^(.+?\.)?amemv\.com$
-0.0.0.0 ^(.+?\.)?bytecdn\.com$
-0.0.0.0 ^(.+?\.)?bytedanceapi\.com$
-0.0.0.0 ^(.+?\.)?bytedance\.com$
-0.0.0.0 ^(.+?\.)?bytedance\.com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?bytedance\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?bytedance\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?bytedance\.com\.w\.cdngslb\.com$
-0.0.0.0 ^(.+?\.)?bytedance\.map\.fastly\.net$
-0.0.0.0 ^(.+?\.)?bytedns\.net$
-0.0.0.0 ^(.+?\.)?bytedns1\.com$
-0.0.0.0 ^(.+?\.)?byted\.org$
-0.0.0.0 ^(.+?\.)?byted-static\.com$
-0.0.0.0 ^(.+?\.)?bytegecko\.com$
-0.0.0.0 ^(.+?\.)?bytegecko\.com\.bsgslb\.com$
-0.0.0.0 ^(.+?\.)?bytegecko\.com\.c\.cdnhwc1\.com$
-0.0.0.0 ^(.+?\.)?bytegecko\.com\.download\.ks-cdn\.com$
-0.0.0.0 ^(.+?\.)?bytegecko\.com\.volcgslb\.com$
-0.0.0.0 ^(.+?\.)?byteoversea\.com$
-0.0.0.0 ^(.+?\.)?byteoversea\.com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?byteoversea\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?byteoversea\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?byteoversea\.net$
-0.0.0.0 ^(.+?\.)?bytetcdn\.com$
-0.0.0.0 ^(.+?\.)?bytetos\.com$
-0.0.0.0 ^(.+?\.)?bytevcloud\.com$
-0.0.0.0 ^(.+?\.)?hypstarcdn\.com$
-0.0.0.0 ^(.+?\.)?hypstarcdn\.com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?hypstarcdn\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?hypstarcdn\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?i18n-pglstatp\.com$
-0.0.0.0 ^(.+?\.)?ibytedtos\.com$
-0.0.0.0 ^(.+?\.)?ibyteimg\.com$
-0.0.0.0 ^(.+?\.)?ibyteimg\.com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?ibyteimg\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?ibyteimg\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?ipstatp\.com$
-0.0.0.0 ^(.+?\.)?isnssdk\.com$
-0.0.0.0 ^(.+?\.)?muscdn\.com$
-0.0.0.0 ^(.+?\.)?muscdn\.com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?muscdn\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?muscdn\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?musemuse\.cn$
-0.0.0.0 ^(.+?\.)?musicall\.ly$
-0.0.0.0 ^(.+?\.)?musical\.ly$
-0.0.0.0 ^(.+?\.)?musical\.ly\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?musical\.ly\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?musical\.ly\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?pstatp\.com$
-0.0.0.0 ^(.+?\.)?sgsnssdk\.com$
-0.0.0.0 ^(.+?\.)?tiktok\.com$
-0.0.0.0 ^(.+?\.)?tiktok\.com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?tiktok\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?tiktok\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?tiktok\.org$
-0.0.0.0 ^(.+?\.)?tiktokcdn\.com$
-0.0.0.0 ^(.+?\.)?tiktokcdn-com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?tiktokcdn\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?tiktokcdn\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?tiktokd\.org$
-0.0.0.0 ^(.+?\.)?tiktokv\.com$
-0.0.0.0 ^(.+?\.)?tiktokv\.com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?tiktokv\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?tiktokv\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?tlivecdn\.com$
-0.0.0.0 ^(.+?\.)?toutiao\.com$
-0.0.0.0 ^(.+?\.)?toutiao\.com\.w\.cdngslb\.com$
-0.0.0.0 ^(.+?\.)?toutiao50\.com$
-0.0.0.0 ^(.+?\.)?toutiao50\.com\.akamaized\.net$
-0.0.0.0 ^(.+?\.)?toutiao50\.com\.edgekey\.net$
-0.0.0.0 ^(.+?\.)?toutiao50\.com\.edgesuite\.net$
-0.0.0.0 ^(.+?\.)?toutiaocloud\.com$
-0.0.0.0 ^(.+?\.)?toutiaocloud\.net$
-0.0.0.0 ^(.+?\.)?ttlivecdn\.com$
-0.0.0.0 ^(.+?\.)?ttoversea\.net$
-0.0.0.0 ^(.+?\.)?ttoverseaus\.net$
+/^(.+?\.)?amemv\.com$/
+/^(.+?\.)?bytecdn\.com$/
+/^(.+?\.)?bytedanceapi\.com$/
+/^(.+?\.)?bytedance\.com$/
+/^(.+?\.)?bytedance\.com\.akamaized\.net$/
+/^(.+?\.)?bytedance\.com\.edgekey\.net$/
+/^(.+?\.)?bytedance\.com\.edgesuite\.net$/
+/^(.+?\.)?bytedance\.com\.w\.cdngslb\.com$/
+/^(.+?\.)?bytedance\.map\.fastly\.net$/
+/^(.+?\.)?bytedns\.net$/
+/^(.+?\.)?bytedns1\.com$/
+/^(.+?\.)?byted\.org$/
+/^(.+?\.)?byted-static\.com$/
+/^(.+?\.)?bytegecko\.com$/
+/^(.+?\.)?bytegecko\.com\.bsgslb\.com$/
+/^(.+?\.)?bytegecko\.com\.c\.cdnhwc1\.com$/
+/^(.+?\.)?bytegecko\.com\.download\.ks-cdn\.com$/
+/^(.+?\.)?bytegecko\.com\.volcgslb\.com$/
+/^(.+?\.)?byteoversea\.com$/
+/^(.+?\.)?byteoversea\.com\.akamaized\.net$/
+/^(.+?\.)?byteoversea\.com\.edgekey\.net$/
+/^(.+?\.)?byteoversea\.com\.edgesuite\.net$/
+/^(.+?\.)?byteoversea\.net$/
+/^(.+?\.)?bytetcdn\.com$/
+/^(.+?\.)?bytetos\.com$/
+/^(.+?\.)?bytevcloud\.com$/
+/^(.+?\.)?hypstarcdn\.com$/
+/^(.+?\.)?hypstarcdn\.com\.akamaized\.net$/
+/^(.+?\.)?hypstarcdn\.com\.edgekey\.net$/
+/^(.+?\.)?hypstarcdn\.com\.edgesuite\.net$/
+/^(.+?\.)?i18n-pglstatp\.com$/
+/^(.+?\.)?ibytedtos\.com$/
+/^(.+?\.)?ibyteimg\.com$/
+/^(.+?\.)?ibyteimg\.com\.akamaized\.net$/
+/^(.+?\.)?ibyteimg\.com\.edgekey\.net$/
+/^(.+?\.)?ibyteimg\.com\.edgesuite\.net$/
+/^(.+?\.)?ipstatp\.com$/
+/^(.+?\.)?isnssdk\.com$/
+/^(.+?\.)?muscdn\.com$/
+/^(.+?\.)?muscdn\.com\.akamaized\.net$/
+/^(.+?\.)?muscdn\.com\.edgekey\.net$/
+/^(.+?\.)?muscdn\.com\.edgesuite\.net$/
+/^(.+?\.)?musemuse\.cn$/
+/^(.+?\.)?musicall\.ly$/
+/^(.+?\.)?musical\.ly$/
+/^(.+?\.)?musical\.ly\.akamaized\.net$/
+/^(.+?\.)?musical\.ly\.edgekey\.net$/
+/^(.+?\.)?musical\.ly\.edgesuite\.net$/
+/^(.+?\.)?pstatp\.com$/
+/^(.+?\.)?sgsnssdk\.com$/
+/^(.+?\.)?tiktok\.com$/
+/^(.+?\.)?tiktok\.com\.akamaized\.net$/
+/^(.+?\.)?tiktok\.com\.edgekey\.net$/
+/^(.+?\.)?tiktok\.com\.edgesuite\.net$/
+/^(.+?\.)?tiktok\.org$/
+/^(.+?\.)?tiktokcdn\.com$/
+/^(.+?\.)?tiktokcdn-com\.akamaized\.net$/
+/^(.+?\.)?tiktokcdn\.com\.edgekey\.net$/
+/^(.+?\.)?tiktokcdn\.com\.edgesuite\.net$/
+/^(.+?\.)?tiktokd\.org$/
+/^(.+?\.)?tiktokv\.com$/
+/^(.+?\.)?tiktokv\.com\.akamaized\.net$/
+/^(.+?\.)?tiktokv\.com\.edgekey\.net$/
+/^(.+?\.)?tiktokv\.com\.edgesuite\.net$/
+/^(.+?\.)?tlivecdn\.com$/
+/^(.+?\.)?toutiao\.com$/
+/^(.+?\.)?toutiao\.com\.w\.cdngslb\.com$/
+/^(.+?\.)?toutiao50\.com$/
+/^(.+?\.)?toutiao50\.com\.akamaized\.net$/
+/^(.+?\.)?toutiao50\.com\.edgekey\.net$/
+/^(.+?\.)?toutiao50\.com\.edgesuite\.net$/
+/^(.+?\.)?toutiaocloud\.com$/
+/^(.+?\.)?toutiaocloud\.net$/
+/^(.+?\.)?ttlivecdn\.com$/
+/^(.+?\.)?ttoversea\.net$/
+/^(.+?\.)?ttoverseaus\.net$/

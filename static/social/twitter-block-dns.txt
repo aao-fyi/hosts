@@ -1,16 +1,16 @@
-0.0.0.0 ^(.+?\.)?ads-twitter\.com$
-0.0.0.0 ^(.+?\.)?cms-twdigitalassets\.com$
-0.0.0.0 ^(.+?\.)?periscope\.tv$
-0.0.0.0 ^(.+?\.)?pscp\.tv$
-0.0.0.0 ^(.+?\.)?t\.co$
-0.0.0.0 ^(.+?\.)?tweetdeck\.com$
-0.0.0.0 ^(.+?\.)?twimg\.com$
-0.0.0.0 ^(.+?\.)?twitter\.co$
-0.0.0.0 ^(.+?\.)?twitter\.co\.uk$
-0.0.0.0 ^(.+?\.)?twitter\.com$
-0.0.0.0 ^(.+?\.)?twitter\.com\.au$
-0.0.0.0 ^(.+?\.)?twitterinc\.com$
-0.0.0.0 ^(.+?\.)?twitteroauth\.com$
-0.0.0.0 ^(.+?\.)?twitterstat\.us$
-0.0.0.0 ^(.+?\.)?twttr\.com$
-0.0.0.0 ^(.+?\.)?twitpic\.com$
+/^(.+?\.)?ads-twitter\.com$/
+/^(.+?\.)?cms-twdigitalassets\.com$/
+/^(.+?\.)?periscope\.tv$/
+/^(.+?\.)?pscp\.tv$/
+/^(.+?\.)?t\.co$/
+/^(.+?\.)?tweetdeck\.com$/
+/^(.+?\.)?twimg\.com$/
+/^(.+?\.)?twitter\.co$/
+/^(.+?\.)?twitter\.co\.uk$/
+/^(.+?\.)?twitter\.com$/
+/^(.+?\.)?twitter\.com\.au$/
+/^(.+?\.)?twitterinc\.com$/
+/^(.+?\.)?twitteroauth\.com$/
+/^(.+?\.)?twitterstat\.us$/
+/^(.+?\.)?twttr\.com$/
+/^(.+?\.)?twitpic\.com$/
