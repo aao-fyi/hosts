@@ -1,10 +1,10 @@
 # Hosts
-Host lists for DNS services that support regex (PiHole) and browser blockers (uBlock Origin).
+Host lists for regex-supporting DNS services (Blocky); and browser blockers (uBlock Origin).
 
 ## Lists
-There are different files for each application, select accordingly. Each service will have the following lists. Replace `.txt` with `.sum` for a SHA-256 checksum for each file.
+Each service will have the following lists. Replace `.txt` with `.sum` for a SHA-256 checksum for each file.
 
-+ `*-block-dns.txt` DNS block list, zero IP.
++ `*-block-dns.txt` DNS block list.
 + `*-block-ubo.txt` uBlock block list.
 + `*-allow-ubo.txt` uBlock allow list.
 
@@ -51,7 +51,7 @@ Includes Twitter and Periscope.
   - Git: https://gitlab.com/aao-fyi/hosts/-/raw/main/static/social/twitter-allow-ubo.txt
 
 
-## Contributing
+## Editing
 Make changes to hostname lists in the `data` directory.
 
 ## License
