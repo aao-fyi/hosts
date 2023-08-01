@@ -24,6 +24,7 @@ byteoversea.net
 bytetcdn.com
 bytetos.com
 bytevcloud.com
+douyin.com
 hypstarcdn.com
 hypstarcdn.com.akamaized.net
 hypstarcdn.com.edgekey.net
