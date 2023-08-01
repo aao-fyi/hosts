@@ -14,3 +14,4 @@ twitteroauth.com
 twitterstat.us
 twttr.com
 twitpic.com
+x.com
