@@ -45,4 +45,5 @@
 /^(.+?\.)?onavo\.com$/
 /^(.+?\.)?tfbnw\.net$/
 /^(.+?\.)?thefacebook\.com$/
+/^(.+?\.)?threads\.net$/
 /^(.+?\.)?wit\.ai$/
