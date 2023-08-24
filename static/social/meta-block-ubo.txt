@@ -1,3 +1,8 @@
+||accountkit.com^
+||acebook.com^
+||atdmt.com^
+||atdmt.com.nsatc.net^
+||atlassolutions.com^
 ||cdninstagram.com^
 ||faacebook.com^
 ||facebbook.com^
@@ -40,6 +45,7 @@
 ||instagramstatic-a.akamaihd.net.edgekey.net^
 ||instagramstatic-a.akamaihd.net.edgesuite.net^
 ||internet.org^
+||m-freeway.com^
 ||meta.com^
 ||metacareers.com^
 ||onavo.com^
