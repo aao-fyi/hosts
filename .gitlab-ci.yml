@@ -1,16 +1,22 @@
+image: ruby:3.2
+
 stages:
-  - build
-  - deploy
+  - build-hosts
+  - build-pages
+  - deploy-pages
+
+include:
+  - project: "aao-fyi/pipelines"
+    file: "hugo/.cf-pages-deploy-ci.yml"
 
 variables:
   GIT_USER_NAME: "Commit Bot"
   GIT_USER_EMAIL: "bot@example.com"
   GIT_SSH_KEY: "SSH-Private-Key-Base64"
   GIT_REPO_URL: "ssh://git@gitlab.com/$CI_PROJECT_PATH.git"
-  TRIGGER_REPO: "$CI_PROJECT_NAMESPACE/hosts-site"
 
-build:
-  stage: build
+build-hosts:
+  stage: build-hosts
   before_script:
     # Configure git
     - git config user.name "$GIT_USER_NAME"
@@ -60,9 +66,3 @@ build:
     - git commit -m "Build lists [skip ci]"
     # Push changes
     - git push origin build:main
-
-deploy:
-  stage: deploy
-  # Trigger site pipeline
-  trigger:
-    project: $TRIGGER_REPO
