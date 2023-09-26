@@ -1,0 +1,10 @@
+{{/* Main */}}
+{{ define "main" }}
+<div class="container my-4">
+  {{/* Hosts README */}}
+  {{ partial "include-md" "README.md" }}
+
+  {{/* Content */}}
+	{{ .Content | safeHTML }}
+</div>
+{{ end }}

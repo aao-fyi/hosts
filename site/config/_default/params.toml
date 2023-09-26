@@ -1,0 +1,13 @@
+description = ''
+
+[bootstrap]
+  javascript = false
+
+[postCSS]
+  state = true
+
+[manifest]
+  state = false
+
+[copyright]
+  link = 'https://aao.fyi/'
