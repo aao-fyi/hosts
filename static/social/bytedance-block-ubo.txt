@@ -1,4 +1,5 @@
 ||amemv.com^
+||amemv.com.c.dsa.cdnbuild.net^
 ||bytecdn.com^
 ||bytedanceapi.com^
 ||bytedance.com^
@@ -11,6 +12,7 @@
 ||bytedns1.com^
 ||byted.org^
 ||byted-static.com^
+||bytefcdn.com^
 ||bytegecko.com^
 ||bytegecko.com.bsgslb.com^
 ||bytegecko.com.c.cdnhwc1.com^
@@ -25,6 +27,8 @@
 ||bytetos.com^
 ||bytevcloud.com^
 ||douyin.com^
+||douyincdn.com^
+||douyinvod.com^
 ||hypstarcdn.com^
 ||hypstarcdn.com.akamaized.net^
 ||hypstarcdn.com.edgekey.net^
