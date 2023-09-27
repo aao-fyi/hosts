@@ -13,11 +13,13 @@
 ||byted.org^
 ||byted-static.com^
 ||bytefcdn.com^
+||bytefcdn-oversea.com^
 ||bytegecko.com^
 ||bytegecko.com.bsgslb.com^
 ||bytegecko.com.c.cdnhwc1.com^
 ||bytegecko.com.download.ks-cdn.com^
 ||bytegecko.com.volcgslb.com^
+||byteglb.com^
 ||byteoversea.com^
 ||byteoversea.com.akamaized.net^
 ||byteoversea.com.edgekey.net^
@@ -28,7 +30,14 @@
 ||bytevcloud.com^
 ||douyin.com^
 ||douyincdn.com^
+||douyincdn.com.c.volcfcdndvs.com^
+||douyincdn.com.tcdnlive.com^
+||douyincdn.com.ucloud.com.cn^
+||douyinliving.com^
+||douyinpic.com^
+||douyinstatic.com^
 ||douyinvod.com^
+||douyinvod.com.cloud.wo.cn^
 ||hypstarcdn.com^
 ||hypstarcdn.com.akamaized.net^
 ||hypstarcdn.com.edgekey.net^
@@ -41,6 +50,8 @@
 ||ibyteimg.com.edgesuite.net^
 ||ipstatp.com^
 ||isnssdk.com^
+||lf1-ttcdn-tos.pstatp.com^
+||lf6-douyin-ckv-tos.pstatp.com^
 ||muscdn.com^
 ||muscdn.com.akamaized.net^
 ||muscdn.com.edgekey.net^
@@ -68,6 +79,7 @@
 ||tiktokv.com.edgekey.net^
 ||tiktokv.com.edgesuite.net^
 ||tlivecdn.com^
+||ttlivecdn.com^
 ||toutiao.com^
 ||toutiao.com.w.cdngslb.com^
 ||toutiao50.com^
@@ -77,5 +89,6 @@
 ||toutiaocloud.com^
 ||toutiaocloud.net^
 ||ttlivecdn.com^
+||ttlivecdn.com.c.worldfcdn.com^
 ||ttoversea.net^
 ||ttoverseaus.net^
