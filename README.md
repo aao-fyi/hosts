@@ -14,7 +14,7 @@ Usage of the block lists will break the corresponding services.
 Lists of social media services.
 
 #### ByteDance
-Includes ByteDance and TikTok.
+Includes ByteDance, Douyin, and TikTok.
 
 + Block DNS
   - Web: https://hosts.aao.fyi/social/bytedance-block-dns.txt
@@ -40,7 +40,7 @@ Includes Meta, Facebook, and Instagram. May impact WhatsApp, but WhatsApp domain
   - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/social/meta-allow-ubo.txt
 
 #### Twitter
-Includes Twitter, Periscope, and Vine.
+Includes Twitter, Periscope, Vine, and X.
 
 + Block DNS
   - Web: https://hosts.aao.fyi/social/twitter-block-dns.txt
@@ -55,8 +55,34 @@ Includes Twitter, Periscope, and Vine.
 ### Stream
 Lists of video streaming services.
 
+#### Emby
+Includes Emby and MediaBrowser.
+
++ Block DNS
+  - Web: https://hosts.aao.fyi/stream/emby-block-dns.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/emby-block-dns.txt
++ Block UBO
+  - Web: https://hosts.aao.fyi/stream/emby-block-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/emby-block-ubo.txt
++ Allow UBO
+  - Web: https://hosts.aao.fyi/stream/emby-allow-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/emby-allow-ubo.txt
+
+#### Plex
+Includes Plex.
+
++ Block DNS
+  - Web: https://hosts.aao.fyi/stream/plex-block-dns.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/plex-block-dns.txt
++ Block UBO
+  - Web: https://hosts.aao.fyi/stream/plex-block-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/plex-block-ubo.txt
++ Allow UBO
+  - Web: https://hosts.aao.fyi/stream/plex-allow-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/plex-allow-ubo.txt
+
 #### Roku
-Includes Roku.
+Includes Roku, Dynastrom, and The Roku Channel.
 
 + Block DNS
   - Web: https://hosts.aao.fyi/stream/roku-block-dns.txt
@@ -90,7 +116,9 @@ Hosts is distributed under the [MIT License](https://codeberg.org/aao-fyi/hosts/
 This project has **no affiliation** with the services mentioned. For information regarding specified services, please refer to the respective service website.
 
 + ByteDance, Douyin, and TikTok are properties of [ByteDance Ltd](https://bytedance.com/).
++ Emby and MediaBrowser are properties of [Emby](https://emby.media/).
 + Google and YouTube are properties of [Google LLC](https://google.com/).
 + Meta, Facebook, Instagram, and WhatsApp are properties of [Meta Platforms, Inc](https://meta.com/).
-+ Roku, DynaStrom, and The Roku Channel are properties of [Roku](https://roku.com/).
++ Plex are properties of [Plex Inc](https://plex.tv/).
++ Roku, Dynastrom, and The Roku Channel are properties of [Roku](https://roku.com/).
 + Twitter, Periscope, Vine, and X are properties of [X Corp](https://x.com/).
