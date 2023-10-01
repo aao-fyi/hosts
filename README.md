@@ -8,8 +8,10 @@ Each service will have the following lists. Replace `.txt` with `.sum` for a SHA
 + `*-block-ubo.txt` uBlock block list.
 + `*-allow-ubo.txt` uBlock allow list.
 
+Usage of the block lists will break the corresponding services.
+
 ### Social
-These lists target entire services, they are intended for use only if you don't use the service. Usage of these block-lists **will** break the corresponding service(s).
+Lists of social media services.
 
 #### ByteDance
 Includes ByteDance and TikTok.
@@ -50,6 +52,34 @@ Includes Twitter, Periscope, and Vine.
   - Web: https://hosts.aao.fyi/social/twitter-allow-ubo.txt
   - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/social/twitter-allow-ubo.txt
 
+### Stream
+Lists of video streaming services.
+
+#### Roku
+Includes Roku.
+
++ Block DNS
+  - Web: https://hosts.aao.fyi/stream/roku-block-dns.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/roku-block-dns.txt
++ Block UBO
+  - Web: https://hosts.aao.fyi/stream/roku-block-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/roku-block-ubo.txt
++ Allow UBO
+  - Web: https://hosts.aao.fyi/stream/roku-allow-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/roku-allow-ubo.txt
+
+#### YouTube
+Includes YouTube.
+
++ Block DNS
+  - Web: https://hosts.aao.fyi/stream/youtube-block-dns.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/youtube-block-dns.txt
++ Block UBO
+  - Web: https://hosts.aao.fyi/stream/youtube-block-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/youtube-block-ubo.txt
++ Allow UBO
+  - Web: https://hosts.aao.fyi/stream/youtube-allow-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/youtube-allow-ubo.txt
 
 ## Editing
 Make changes to hostname lists in the `data` directory.
@@ -57,8 +87,10 @@ Make changes to hostname lists in the `data` directory.
 ## License
 Hosts is distributed under the [MIT License](https://codeberg.org/aao-fyi/hosts/src/branch/main/LICENSE).
 
-This project has **no affiliation** with the services mentioned. For information regarding specified services, please refer to the respective service(s) website.
+This project has **no affiliation** with the services mentioned. For information regarding specified services, please refer to the respective service website.
 
-+ ByteDance and TikTok are properties of [ByteDance Ltd](https://bytedance.com/).
++ ByteDance, Douyin, and TikTok are properties of [ByteDance Ltd](https://bytedance.com/).
++ Google and YouTube are properties of [Google LLC](https://google.com/).
 + Meta, Facebook, Instagram, and WhatsApp are properties of [Meta Platforms, Inc](https://meta.com/).
++ Roku, DynaStrom, and The Roku Channel are properties of [Roku](https://roku.com/).
 + Twitter, Periscope, Vine, and X are properties of [X Corp](https://x.com/).
