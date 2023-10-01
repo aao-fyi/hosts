@@ -1,0 +1,6 @@
+||plex.bz^
+||plex.direct^
+||plex.hosted-by-discourse.com^
+||plex.tv^
+||plexapp.com^
+||plexapp.com.cdn.cloudflare.net^
