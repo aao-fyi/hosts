@@ -124,6 +124,7 @@ youtube.md
 youtube.me
 youtube.mk
 youtube.mn
+youtubemusic.com
 youtube.mx
 youtube.my
 youtube.ng
@@ -152,6 +153,7 @@ youtube.soy
 youtube.sv
 youtube.tn
 youtube.tv
+youtubetv.com
 youtube.ua
 youtube.ug
 youtube-ui.l.google.com
