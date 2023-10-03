@@ -1,3 +1,4 @@
+@@||i-ytimg-com.cdn.ampproject.org^
 @@||youtu.be^
 @@||youtube.ae^
 @@||youtube.al^

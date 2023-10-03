@@ -1,3 +1,4 @@
 /^(.+?\.)?emby\.media$/
+/^(.+?\.)?emby\.tv$/
 /^(.+?\.)?mb3admin\.com$/
 /^(.+?\.)?mediabrowser\.tv$/
