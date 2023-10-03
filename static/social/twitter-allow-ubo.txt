@@ -2,6 +2,7 @@
 @@||cms-twdigitalassets.com^
 @@||periscope.tv^
 @@||pscp.tv^
+@@||pscp.tv.map.fastly.net^
 @@||t.co^
 @@||tweetdeck.com^
 @@||twimg.com^
@@ -9,7 +10,11 @@
 @@||twitter.co.uk^
 @@||twitter.com^
 @@||twitter.com.au^
+@@||twitter.dev^
+@@||twitter.github.io^
 @@||twitterinc.com^
+@@||twitterinc.tt^
+@@||twitterinc.tt.omtrdc.net^
 @@||twitteroauth.com^
 @@||twitterstat.us^
 @@||twttr.com^
