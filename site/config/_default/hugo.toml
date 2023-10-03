@@ -33,6 +33,12 @@ enableRobotsTXT = true
   [[module.imports.mounts]]
     source = 'README.md'
     target = 'assets/README.md'
+  # Logo
+  [[module.imports]]
+    path = 'gitlab.com/aao-fyi/project-logos'
+  [[module.imports.mounts]]
+    source = 'hosts/'
+    target = 'assets/img/logo/'
 
 [menu]
   # Connect
