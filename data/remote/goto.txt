@@ -1,4 +1,14 @@
 expertcity.com
+getgocdn.com
+getgo.com
+goto.com
+gotoconference.com
+gotomeeting.com
+gotomeeting.com.akadns.net
+gotomypc.com
+goto-rtc.com
+gototraining.com
+gotowebinar.com
 jive.com
 join.me
 lmiutil.com
@@ -6,7 +16,5 @@ logmein.com
 logmein-gateway.com
 logmeininc.com
 logmeinrescue.com
-goto.com
-gotomypc.com
 remotelyanywhere.com
 vpn.net
