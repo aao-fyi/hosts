@@ -26,6 +26,19 @@ Includes TeamViewer.
   - Web: https://hosts.aao.fyi/remote/teamviewer-allow-ubo.txt
   - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/remote/teamviewer-allow-ubo.txt
 
+#### GoTo
+Includes GoTo, Hamachi, LogMeIn, and RemotelyAnywhere. Does not include Grasshopper or LastPass.
+
++ Block DNS
+  - Web: https://hosts.aao.fyi/remote/goto-block-dns.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/remote/goto-block-dns.txt
++ Block UBO
+  - Web: https://hosts.aao.fyi/remote/goto-block-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/remote/goto-block-ubo.txt
++ Allow UBO
+  - Web: https://hosts.aao.fyi/remote/goto-allow-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/remote/goto-allow-ubo.txt
+
 ### Social
 Lists of social media services.
 
@@ -134,6 +147,7 @@ This project has **no affiliation** with the services mentioned. For information
 + ByteDance, Douyin, and TikTok are properties of [ByteDance Ltd](https://bytedance.com/).
 + Emby and MediaBrowser are properties of [Emby](https://emby.media/).
 + Google and YouTube are properties of [Google LLC](https://google.com/).
++ GoTo, Grasshopper, Hamachi, LastPass, LogMeIn, and RemotelyAnywhere are properties of [GoTo](https://goto.com/).
 + Meta, Facebook, Instagram, and WhatsApp are properties of [Meta Platforms, Inc](https://meta.com/).
 + Plex are properties of [Plex Inc](https://plex.tv/).
 + Roku, Dynastrom, and The Roku Channel are properties of [Roku](https://roku.com/).
