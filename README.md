@@ -10,6 +10,22 @@ Each service will have the following lists. Replace `.txt` with `.sum` for a SHA
 
 Usage of the block lists will break the corresponding services.
 
+### Remote
+Lists of remote access services.
+
+#### Teamviewer
+Includes TeamViewer.
+
++ Block DNS
+  - Web: https://hosts.aao.fyi/remote/teamviewer-block-dns.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/remote/teamviewer-block-dns.txt
++ Block UBO
+  - Web: https://hosts.aao.fyi/remote/teamviewer-block-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/remote/teamviewer-block-ubo.txt
++ Allow UBO
+  - Web: https://hosts.aao.fyi/remote/teamviewer-allow-ubo.txt
+  - Git: https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/remote/teamviewer-allow-ubo.txt
+
 ### Social
 Lists of social media services.
 
@@ -121,4 +137,5 @@ This project has **no affiliation** with the services mentioned. For information
 + Meta, Facebook, Instagram, and WhatsApp are properties of [Meta Platforms, Inc](https://meta.com/).
 + Plex are properties of [Plex Inc](https://plex.tv/).
 + Roku, Dynastrom, and The Roku Channel are properties of [Roku](https://roku.com/).
++ TeamViewer are properties of [TeamViewer](https://teamviewer.com/).
 + Twitter, Periscope, Vine, and X are properties of [X Corp](https://x.com/).
