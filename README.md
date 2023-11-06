@@ -44,7 +44,7 @@ Includes ByteDance, Douyin, and TikTok.
 | Allow | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/social/bytedance-allow-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/social/bytedance-allow-ubo.txt) |
 
 #### Meta
-Includes Meta, Facebook, and Instagram. May impact WhatsApp, but WhatsApp domains are not included.
+Includes Meta, Facebook, Instagram, and Threads. May impact WhatsApp, but WhatsApp domains are not included.
 
 | Meta | Application | Web Link | Git Link |
 | ---- | ----------- | -------- | -------- |
@@ -130,7 +130,7 @@ This project has **no affiliation** with the services mentioned. For information
 + Emby and MediaBrowser are properties of [Emby](https://emby.media/).
 + Google and YouTube are properties of [Google LLC](https://google.com/).
 + GoTo, Grasshopper, Hamachi, LastPass, LogMeIn, and RemotelyAnywhere are properties of [GoTo](https://goto.com/).
-+ Meta, Facebook, Instagram, and WhatsApp are properties of [Meta Platforms, Inc](https://meta.com/).
++ Meta, Facebook, Instagram, Threads, and WhatsApp are properties of [Meta Platforms, Inc](https://meta.com/).
 + Pinterest are properties of [Pinterest, Inc](https://pinterest.com/).
 + Plex are properties of [Plex Inc](https://plex.tv/).
 + Reddit are properties of [Reddit Inc](https://redditinc.com/).
