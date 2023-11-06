@@ -91,6 +91,15 @@ Includes Emby and MediaBrowser.
 | Block | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/stream/emby-block-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/emby-block-ubo.txt) |
 | Allow | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/stream/emby-allow-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/emby-allow-ubo.txt) |
 
+#### Netflix
+Includes Netflix.
+
+| Netflix | Application | Web Link | Git Link |
+| ---- | ----------- | -------- | -------- |
+| Block | DNS | [hosts.aao.fyi](https://hosts.aao.fyi/stream/netflix-block-dns.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/netflix-block-dns.txt) |
+| Block | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/stream/netflix-block-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/netflix-block-ubo.txt) |
+| Allow | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/stream/netflix-allow-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/stream/netflix-allow-ubo.txt) |
+
 #### Plex
 Includes Plex.
 
@@ -131,6 +140,7 @@ This project has **no affiliation** with the services mentioned. For information
 + Google and YouTube are properties of [Google LLC](https://google.com/).
 + GoTo, Grasshopper, Hamachi, LastPass, LogMeIn, and RemotelyAnywhere are properties of [GoTo](https://goto.com/).
 + Meta, Facebook, Instagram, Threads, and WhatsApp are properties of [Meta Platforms, Inc](https://meta.com/).
++ Netflix are properties of [Netflix, Inc](https://netflix.com/).
 + Pinterest are properties of [Pinterest, Inc](https://pinterest.com/).
 + Plex are properties of [Plex Inc](https://plex.tv/).
 + Reddit are properties of [Reddit Inc](https://redditinc.com/).
