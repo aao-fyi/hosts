@@ -61,6 +61,15 @@ Includes Pinterest.
 | Block | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/social/pinterest-block-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/social/pinterest-block-ubo.txt) |
 | Allow | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/social/pinterest-allow-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/social/pinterest-allow-ubo.txt) |
 
+#### Reddit
+Includes Reddit.
+
+| Reddit | Application | Web Link | Git Link |
+| ------ | ----------- | -------- | -------- |
+| Block | DNS | [hosts.aao.fyi](https://hosts.aao.fyi/social/reddit-block-dns.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/social/reddit-block-dns.txt) |
+| Block | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/social/reddit-block-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/social/reddit-block-ubo.txt) |
+| Allow | UBO | [hosts.aao.fyi](https://hosts.aao.fyi/social/reddit-allow-ubo.txt) | [Codeberg](https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/social/reddit-allow-ubo.txt) |
+
 #### Twitter
 Includes Twitter, Periscope, Vine, and X.
 
@@ -124,6 +133,7 @@ This project has **no affiliation** with the services mentioned. For information
 + Meta, Facebook, Instagram, and WhatsApp are properties of [Meta Platforms, Inc](https://meta.com/).
 + Pinterest are properties of [Pinterest, Inc](https://pinterest.com/).
 + Plex are properties of [Plex Inc](https://plex.tv/).
++ Reddit are properties of [Reddit Inc](https://redditinc.com/).
 + Roku, Dynastrom, and The Roku Channel are properties of [Roku](https://roku.com/).
 + TeamViewer are properties of [TeamViewer](https://teamviewer.com/).
 + Twitter, Periscope, Vine, and X are properties of [X Corp](https://x.com/).
