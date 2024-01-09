@@ -1,5 +1,9 @@
+/^(.+?\.)?chatvisor\.com$/
+/^(.+?\.)?hapibot\.com$/
 /^(.+?\.)?teamviewer\.cn$/
 /^(.+?\.)?teamviewer\.com$/
-/^(.+?\.)?teamviewer\.com\.cdn\.cloudflare\.net$/
 /^(.+?\.)?teamviewer\.net$/
 /^(.+?\.)?teamviewer\.us$/
+/^(.+?\.)?ubimax\.com$/
+/^(.+?\.)?upskill\.io$/
+/^(.+?\.)?viscopic\.com$/
