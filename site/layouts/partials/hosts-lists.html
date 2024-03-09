@@ -1,0 +1,54 @@
+{{ $input := . }}
+{{ $inputSplit := split $input "/" }}
+{{ $listName := index $inputSplit 1 }}
+
+{{ $blockListDNS := (printf "%s-block-dns" (lower $input)) }}
+{{ $blockListUBO := (printf "%s-block-ubo" (lower $input)) }}
+{{ $allowListUBO := (printf "%s-allow-ubo" (lower $input)) }}
+<div class="container my-4">
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
+
+{{ range $list := slice $blockListDNS $blockListUBO $allowListUBO }}
+
+    {{ $listSplit := split $list "-" }}
+    {{/* List Type is second to last definition in list name, block/allow */}}
+    {{ $listType := index $listSplit (sub (len $listSplit) 2) }}
+    {{ $listApps := upper (index $listSplit (sub (len $listSplit) 1)) }}
+
+    {{ $listTXT := (printf "%s.txt" $list) }}
+    {{ $listSUM := (printf "%s.sum" $list) }}
+
+    {{ if and (fileExists (printf "static/%s" $listTXT)) (fileExists (printf "static/%s" $listSUM)) }}
+    <div class="col">
+        <div class="card h-100">
+        <div class="card-body">
+            <h5 class="card-title">
+                {{ with (eq $listType "block") }}{{ partial "icon" "x-octagon" }}{{ end }}
+                {{ with (eq $listType "allow") }}{{ partial "icon" "alert-triangle" }}{{ end }}
+                &nbsp; {{ title (printf "%s %s %s List" $listName $listApps $listType) }}
+            </h5>
+            <p class="card-text" aria-hidden="true">Will <strong>{{ $listType }}</strong> connections to all listed domains.</p>
+            <p class="card-subtitle">{{ title (printf "%s %s List:" $listApps $listType) }}</p>
+            <div class="highlight">
+                <pre><code>{{ printf "https://hosts.aao.fyi/%s" $listTXT }}</code></pre>
+            </div>
+            <p class="card-subtitle">SHA-256 Checksum:</p>
+            <div class="highlight">
+                <pre><code>{{ $test := readFile (printf "static/%s" $listSUM) }}{{ $test }}</code></pre>
+            </div>
+        </div>
+
+        {{/* Card Footer */}}
+        <div class="card-footer text-center">
+            <p class="card-subtitle">List Mirrors:</p>
+            {{ partial "button" (dict "url" (printf "https://hosts.aao.fyi/%s" $listTXT) "title" "hosts.aao.fyi" "icon" "file-spreadsheet") }}
+            {{ partial "button" (dict "url" (printf "https://codeberg.org/aao-fyi/hosts/raw/branch/main/static/%s" $listTXT) "title" "Codeberg" "brand" "codeberg") }}
+            {{ partial "button" (dict "url" (printf "https://gitlab.com/aao-fyi/hosts/-/raw/main/static/%s" $listTXT) "title" "GitLab" "brand" "gitlab") }}
+            {{ partial "button" (dict "url" (printf "https://raw.githubusercontent.com/aao-fyi/hosts/main/static/%s" $listTXT) "title" "GitHub" "brand" "github") }}
+        </div>
+        </div>
+    </div>
+    {{ end }}
+{{ end }}
+</div>
+</div>
