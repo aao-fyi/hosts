@@ -60,12 +60,15 @@ build-hosts:
           fi
         done
       done
-    # Stage changes
-    - git add .
-    # Commit changes
-    - git commit -m "Build lists [skip ci]"
-    # Push changes
-    - git push origin build:main
-  only:
-    changes:
-      - /**/*.txt
+    # Check for changes and commit
+    - |
+      if git diff --quiet; then
+        echo "No changes found, skipping commit.";
+      else
+        # Stage changes
+        git add .
+        # Commit changes
+        git commit -m "Build lists [skip ci]";
+        # Push changes
+        git push origin build:main;
+      fi
