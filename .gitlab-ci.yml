@@ -39,7 +39,6 @@ build-hosts:
         service_path=$(dirname "$hosts_file")
         static_path="static/"${service_path#"data/"}
 
-
         service_name=$(basename "$hosts_file" .txt)
 
         mkdir -p "${static_path}"
@@ -61,8 +60,12 @@ build-hosts:
           fi
         done
       done
-    # Commit changes
+    # Stage changes
     - git add .
+    # Commit changes
     - git commit -m "Build lists [skip ci]"
     # Push changes
     - git push origin build:main
+  only:
+    changes:
+      - data/**
