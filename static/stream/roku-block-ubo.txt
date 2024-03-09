@@ -2,10 +2,6 @@
 ||ravm.net^
 ||ravm.tv^
 ||roku.com^
-||roku.com.cdn.cloudflare.net^
-||roku.com.akamaized.net^
-||roku.com.edgekey.net^
-||roku.com.edgesuite.net^
 ||rokutime.com^
 ||therokuchannel.com^
 ||w55c.net^

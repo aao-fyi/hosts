@@ -1,8 +1,13 @@
+@@||animallogic.com^
+@@||bossfightentertainment.com^
 @@||flxvpn.net^
+@@||millarworld.tv^
 @@||netflix.ca^
 @@||netflix.com^
 @@||netflix.com.au^
+@@||netflix.net^
 @@||netflixdnstest1.com^
+@@||netflixdnstest10.com^
 @@||netflixdnstest2.com^
 @@||netflixdnstest3.com^
 @@||netflixdnstest4.com^
@@ -11,11 +16,10 @@
 @@||netflixdnstest7.com^
 @@||netflixdnstest8.com^
 @@||netflixdnstest9.com^
-@@||netflixdnstest10.com^
 @@||netflixinvestor.com^
-@@||netflix.net^
 @@||netflixstudios.com^
 @@||netflixtechblog.com^
+@@||nextgames.com^
 @@||nflxext.com^
 @@||nflximg.com^
 @@||nflximg.net^
@@ -23,3 +27,8 @@
 @@||nflxso.net^
 @@||nflxvideo.com^
 @@||nflxvideo.net^
+@@||nightschoolstudio.com^
+@@||roalddahl.com^
+@@||scanlinevfx.com^
+@@||spryfox.com^
+@@||storybots.com^
