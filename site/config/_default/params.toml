@@ -1,13 +1,15 @@
 description = ''
 
-[bootstrap]
-  javascript = false
-
 [postCSS]
   state = true
+
+[sidebar]
+  section = false
+  single = true
 
 [manifest]
   state = false
 
 [copyright]
   link = 'https://aao.fyi/'
+  year = '2023'
