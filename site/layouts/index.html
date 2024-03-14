@@ -6,15 +6,12 @@
   {{/* Content */}}
   {{ .Content | safeHTML }}
 
-  {{ $docs := .Site.GetPage "section" "docs" }}
-
-  {{ range $docs.Sections }}
-
+  {{ range .Sections }}
     <h2>{{ .Page.Title }}</h2>
     <p>{{ .Page.Description }}</p>
 
     {{ range .Pages }}
-      <h3>{{ .Page.Title }}</h3>{{ partial "button" (dict "url" .Page.RelPermalink "title" "Read Docs") }}
+      <h3>{{ .Page.Title }}</h3>{{ partial "button" (dict "url" .Page.RelPermalink "title" "View") }}
       {{ partial "hosts-lists" (printf "%s/%s" (urlize .Parent.Page.Title) (urlize .Page.Title)) }}
     {{ end }}
   {{ $filePath := printf "content/docs/%s" .Name }}
