@@ -20,6 +20,7 @@ Reddit are properties of [Reddit Inc](https://redditinc.com/).
 + Crunchbase. "RedditGifts." 2024. https://crunchbase.com/organization/redditgifts.
 + Crunchbase. "Spell." 2024. https://crunchbase.com/organization/spell.
 + Crunchbase. "Spiketrap." 2024. https://crunchbase.com/organization/spiketrap.
++ Reddit. "Reddit." 2024. https://reddit.com/.
 + Wikipedia. "Dubsmash." 2024. https://wikipedia.org/wiki/Dubsmash.
 + Wikipedia. "MeaningCloud." 2023. https://wikipedia.org/wiki/MeaningCloud.
 + Wikipedia. "Reddit." 2024. https://wikipedia.org/wiki/Reddit.

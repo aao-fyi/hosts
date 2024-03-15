@@ -81,6 +81,7 @@ Meta are properties of [Meta Platforms, Inc](https://meta.com/).
 + Crunchbase. "presize.ai." 2024. https://www.crunchbase.com/organization/presize-ai.
 + Crunchbase. "threadsy." 2024. https://crunchbase.com/organization/threadsy.
 + Meta. "Announcing The Acquisition of Surreal Vision." 2015. https://meta.com/blog/quest/announcing-the-acquisition-of-surreal-vision/.
++ Meta. "Meta." 2024. https://meta.com/.
 + Pitchbook. "Zurich Eye." 2024. https://pitchbook.com/profiles/company/168342-67.
 + TechCrunch. "Facebook Acquires Team Behind HTML5 App Platform Strobe." 2011. https://techcrunch.com/2011/11/08/facebook-acquires-html5-app-delivery-network-strobe-sproutcore-lives-on/.
 + TechCrunch. "Facebook Buys Sofa." 2011. https://techcrunch.com/2011/06/09/facebook-sofa/.

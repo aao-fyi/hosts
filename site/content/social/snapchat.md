@@ -23,6 +23,7 @@ Snapchat are properties of [Snap Inc](https://snap.com/).
 + Crunchbase. "Vurb." 2024. https://crunchbase.com/organization/vurb.
 + Crunchbase. "Zenly." 2024. https://crunchbase.com/organization/zenly-locator.
 + Gibson Security. "Snapchat - GibSec Full Disclosure." https://gibsonsec.org/snapchat/fulldisclosure/.
++ Snapchat. "Snapchat." 2024. https://snapchat.com/.
 + Wikipedia. "Bitstrips." 2023. https://wikipedia.org/wiki/Bitstrips.
 + Wikipedia. "Scan (company)." 2023. https://wikipedia.org/wiki/Scan_(company).
 + Wikipedia. "Snap Inc." 2023. https://wikipedia.org/wiki/Snap_Inc..

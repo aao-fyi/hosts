@@ -20,4 +20,5 @@ TeamViewer are properties of [TeamViewer](https://teamviewer.com/).
 + Crunchbase. "Upskill." 2024. https://crunchbase.com/organization/apx-labs.
 + Crunchbase. "VISCOPIC." 2024. https://crunchbase.com/organization/viscopic.
 + Crunchbase. "Xaleon." 2024. https://crunchbase.com/organization/chatvisor.
++ TeamViewer. "TeamViewer." 2024. https://teamviewer.com/.
 + Wikipedia. "TeamViewer (company)." 2023. https://wikipedia.org/wiki/TeamViewer_(company).

@@ -28,6 +28,7 @@ Pinterest are properties of [Pinterest, Inc](https://pinterest.com/).
 + Crunchbase. "tote." 2024. https://crunchbase.com/organization/tote-3.
 + Michael Berkens. "Pinterest Gets $7.2 Million Judgement." 2013. https://thedomains.com/2013/09/30/pinterest-gets-7-2-million-dollar-judgement-against-cybersquatter-over-100-domain-names/.
 + *Pinterest, Inc., a Delaware corporation, v. Defendant*, (2012), N.D. Cal., San Francisco Div, No. 12-4586.
++ Pinterest. "Pinterest." 2024. https://pinterest.com/.
 + TechCrunch. "Highlight Raises $4 Million From DFJ." 2024. https://techcrunch.com/2013/12/12/highlight-4m-dfj-v2/.
 + TechCrunch. "Share ALL your photos with Shorts, Highlight’s pivot to voyeurism." 2024. https://techcrunch.com/2016/03/08/shorts/.
 + Wikipedia. "Pinterest." 2024. https://wikipedia.org/wiki/Pinterest.

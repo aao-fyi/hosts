@@ -29,3 +29,4 @@ Xperi are properties of [Xperi Inc](https://xperi.com/).
 + Wikipedia. "TiVo Inc." 2024. https://wikipedia.org/wiki/TiVo_Inc..
 + Wikipedia. "Xperi." 2024. https://wikipedia.org/wiki/Xperi.
 + Wikipedia. "Veveo." 2023. https://wikipedia.org/wiki/Veveo.
++ Xperi. "Xperi." 2024. https://xperi.com/.

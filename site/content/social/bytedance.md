@@ -14,6 +14,7 @@ ByteDance are properties of [ByteDance Ltd](https://bytedance.com/).
 
 ## References
 
++ ByteDance. "ByteDance." 2024. https://bytedance.com/.
 + Crunchbase. "ByteDance." 2024. https://crunchbase.com/organization/bytedance.
 + Crunchbase. "GeoGif." 2024. https://crunchbase.com/organization/geogif.
 + Crunchbase. "Jukedeck." 2024. https://crunchbase.com/organization/jukedeck.
