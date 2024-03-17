@@ -62,13 +62,13 @@ build-hosts:
       done
     # Check for changes and commit
     - |
-      if git diff --quiet; then
-        echo "No changes found, skipping commit.";
-      else
+      if [[ -n $(git status --porcelain) ]]; then
         # Stage changes
         git add .
         # Commit changes
-        git commit -m "Build lists [skip ci]";
+        git commit -m "Build lists [skip ci]" || true
         # Push changes
-        git push origin build:main;
+        git push origin build:main
+      else
+        echo "No changes to commit."
       fi
