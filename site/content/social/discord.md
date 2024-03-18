@@ -10,7 +10,7 @@ Discord are properties of [Discord Inc](https://discord.com/).
 
 ## Lists
 
-{{< hosts-lists "social/dicord" >}}
+{{< hosts-lists "social/discord" >}}
 
 ## References
 

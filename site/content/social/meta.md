@@ -15,7 +15,7 @@ Meta are properties of [Meta Platforms, Inc](https://meta.com/).
 ## References
 
 + Crunchbase. "13th Lab." 2024. https://crunchbase.com/organization/13th-lab.
-+ Crunchbase. "AI.Reverie." 2024. https://www.crunchbase.com/organization/ai-reverie.
++ Crunchbase. "AI.Reverie." 2024. https://crunchbase.com/organization/ai-reverie.
 + Crunchbase. "Acrylic Software." 2024. https://crunchbase.com/organization/acrylic-software.
 + Crunchbase. "Beat Saber." 2024. https://crunchbase.com/organization/beat-games-beat-saber.
 + Crunchbase. "Beluga." 2024. https://crunchbase.com/organization/beluga.
@@ -24,7 +24,7 @@ Meta are properties of [Meta Platforms, Inc](https://meta.com/).
 + Crunchbase. "Branch." 2024. https://crunchbase.com/organization/branch.
 + Crunchbase. "CTRL-labs." 2024. https://crunchbase.com/organization/ctrl-labs.
 + Crunchbase. "Caffinated Mind." 2024. https://crunchbase.com/organization/caffeinated-mind.
-+ Crunchbase. "Camouflaj." 2024. https://www.crunchbase.com/organization/camouflaj.
++ Crunchbase. "Camouflaj." 2024. https://crunchbase.com/organization/camouflaj.
 + Crunchbase. "Chai Labs." 2024. https://crunchbase.com/organization/chailabs.
 + Crunchbase. "Chainspace." 2024. https://crunchbase.com/organization/chainspace.
 + Crunchbase. "Confirm." 2024. https://crunchbase.com/organization/confirm.
@@ -43,11 +43,11 @@ Meta are properties of [Meta Platforms, Inc](https://meta.com/).
 + Crunchbase. "InfiniLED." 2024. https://crunchbase.com/organization/infiniled.
 + Crunchbase. "Jibbigo." 2024. https://crunchbase.com/organization/jibbigo.
 + Crunchbase. "Karma." 2024. https://crunchbase.com/organization/karma.
-+ Crunchbase. "Kustomer." 2024. https://www.crunchbase.com/organization/kustomer.
++ Crunchbase. "Kustomer." 2024. https://crunchbase.com/organization/kustomer.
 + Crunchbase. "Lemnis Technologies." 2024. https://crunchbase.com/organization/lemnis-technologies.
 + Crunchbase. "Little Eye Labs." 2024. https://crunchbase.com/organization/little-eye-labs.
 + Crunchbase. "LiveRail." 2024. https://crunchbase.com/organization/liverail.
-+ Crunchbase. "Lofelt." 2024. https://www.crunchbase.com/organization/lofelt.
++ Crunchbase. "Lofelt." 2024. https://crunchbase.com/organization/lofelt.
 + Crunchbase. "MailRank." 2024. https://crunchbase.com/organization/mailrank.
 + Crunchbase. "Masquerade." 2024. https://crunchbase.com/organization/masquerade.
 + Crunchbase. "Monoidics." 2024. https://crunchbase.com/organization/monoidics.
@@ -73,12 +73,12 @@ Meta are properties of [Meta Platforms, Inc](https://meta.com/).
 + Crunchbase. "Tagtile." 2024. https://crunchbase.com/organization/tagtile.
 + Crunchbase. "The Eye Tribe." 2024. https://crunchbase.com/organization/the-eye-tribe.
 + Crunchbase. "Two Big Ears Ltd." 2024. https://crunchbase.com/organization/two-big-ears-ltd.
-+ Crunchbase. "Unit 2 Games." 2024. https://www.crunchbase.com/organization/unit-2-games.
++ Crunchbase. "Unit 2 Games." 2024. https://crunchbase.com/organization/unit-2-games.
 + Crunchbase. "Vidpresso." 2024. https://crunchbase.com/organization/vidpresso.
 + Crunchbase. "WaveGroup Sound." 2024. https://crunchbase.com/organization/wavegroup-sound.
 + Crunchbase. "Wit.ai." 2024. https://crunchbase.com/organization/wit-ai.
 + Crunchbase. "Zenbe." 2024. https://crunchbase.com/organization/zenbe.
-+ Crunchbase. "presize.ai." 2024. https://www.crunchbase.com/organization/presize-ai.
++ Crunchbase. "presize.ai." 2024. https://crunchbase.com/organization/presize-ai.
 + Crunchbase. "threadsy." 2024. https://crunchbase.com/organization/threadsy.
 + Meta. "Announcing The Acquisition of Surreal Vision." 2015. https://meta.com/blog/quest/announcing-the-acquisition-of-surreal-vision/.
 + Meta. "Meta." 2024. https://meta.com/.
