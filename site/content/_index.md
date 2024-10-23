@@ -8,4 +8,6 @@ Host lists for regex-supporting DNS applications ([Blocky](https://0xerr0r.githu
 
 This project has **no affiliation** with any of the services mentioned. For information regarding specified services, please refer to the respective service website.
 
+Some hosts may no longer be owned or utilized by a service, and some may be incorrect due to human error.
+
 Replace `.txt` with `.sum` on each link for a SHA-256 checksum of the file.
