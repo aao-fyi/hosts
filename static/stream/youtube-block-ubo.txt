@@ -167,6 +167,7 @@
 ||yt-video-upload.l.google.com^
 ||yt.be^
 ||yt3.ggpht.com^
+||yt4.ggpht.com^
 ||ytimg.com^
 ||ytimg.l.google.com^
 ||ytkids.app.goo.gl^
