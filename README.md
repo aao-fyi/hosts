@@ -1,5 +1,5 @@
 # Hosts
-Host lists for regex-supporting DNS applications ([Blocky](https://0xerr0r.github.io/blocky/latest/)); and browser blockers ([uBlock Origin](https://github.com/gorhill/uBlock/)).
+Host lists for regex-supporting DNS applications ([AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)); and browser blockers ([uBlock Origin](https://github.com/gorhill/uBlock/)).
 
 This project has **no affiliation** with any of the services mentioned. For information regarding specified services, please refer to the respective service website.
 
@@ -20,7 +20,7 @@ Usage of the block lists will break the corresponding services.
 Make changes to hostname lists in the `data` directory.
 
 ## Issues
-Open new issues in the [GitLab Issue Tracker](https://gitlab.com/aao-fyi/hosts/-/issues).
+Open new issues in the [Codeberg Issue Tracker](https://codeberg.org/aao-fyi/hosts/issues).
 
 ## License
 Hosts is distributed under the [MIT License](https://codeberg.org/aao-fyi/hosts/src/branch/main/LICENSE).
