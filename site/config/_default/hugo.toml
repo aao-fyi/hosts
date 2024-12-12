@@ -31,7 +31,7 @@ enableRobotsTXT = true
     min = '0.128.0'
   # Hosts
   [[module.imports]]
-    path = 'gitlab.com/aao-fyi/hosts'
+    path = 'codeberg.org/aao-fyi/hosts'
   [[module.imports.mounts]]
     source = 'static/'
     target = 'static/'
@@ -40,7 +40,7 @@ enableRobotsTXT = true
     target = 'assets/README.md'
   # Logo
   [[module.imports]]
-    path = 'gitlab.com/aao-fyi/project-logos'
+    path = 'codeberg.org/aao-fyi/project-logos'
   [[module.imports.mounts]]
     source = 'hosts/'
     target = 'assets/img/logo/'
