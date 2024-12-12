@@ -13,7 +13,7 @@ variables:
   GIT_USER_NAME: "Commit Bot"
   GIT_USER_EMAIL: "bot@example.com"
   GIT_SSH_KEY: "SSH-Private-Key-Base64"
-  GIT_REPO_URL: "ssh://git@gitlab.com/$CI_PROJECT_PATH.git"
+  GIT_REPO_URL: "ssh://git@codeberg.org/$CI_PROJECT_PATH.git"
 
 build-hosts:
   stage: build-hosts
@@ -26,7 +26,7 @@ build-hosts:
     - mkdir -p ~/.ssh
     - echo "$GIT_SSH_KEY" | base64 --decode > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
-    - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+    - ssh-keyscan codeberg.org >> ~/.ssh/known_hosts
     # Checkout
     - git checkout -b build
   script:
