@@ -29,15 +29,6 @@ enableRobotsTXT = true
   [module.hugoVersion]
     extended = true
     min = '0.128.0'
-  # Hosts
-  [[module.imports]]
-    path = 'codeberg.org/aao-fyi/hosts'
-  [[module.imports.mounts]]
-    source = 'static/'
-    target = 'static/'
-  [[module.imports.mounts]]
-    source = 'README.md'
-    target = 'assets/README.md'
   # Logo
   [[module.imports]]
     path = 'codeberg.org/aao-fyi/project-logos'
