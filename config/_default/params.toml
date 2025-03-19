@@ -3,26 +3,22 @@ description = ''
 [postCSS]
   state = true
 
-# Banner
 [banner]
   home = false
   section = false
   single = false
 
-# Sidebar
 [sidebar]
   home = true
   section = true
   single = true
 
-# Breadcrumbs
 [breadcrumb]
   home = true
   homeIcon = 'file-spreadsheet'
   section = true
   single = true
 
-# Heading
 [heading]
   home = false
   section = true
@@ -34,3 +30,6 @@ description = ''
 [copyright]
   link = 'https://aao.fyi/'
   year = '2023'
+
+[robots]
+  llmsTXT = true
