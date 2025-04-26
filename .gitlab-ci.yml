@@ -69,6 +69,8 @@ build-hosts:
         git commit -m "Build lists [skip ci]" || true
         # Push changes
         git push origin build:main
+        # Wait for commit to propagate
+        sleep 10
       else
         echo "No changes to commit."
       fi
