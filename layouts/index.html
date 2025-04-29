@@ -10,26 +10,9 @@
     <h2>{{ .Page.Title }}</h2>
     <p>{{ .Page.Description }}</p>
 
-    {{ range .Pages }}
-      <h3>{{ .Page.Title }}</h3>{{ partial "button" (dict "url" .Page.RelPermalink "title" "View") }}
-      {{ partial "hosts-lists" (printf "%s/%s" (urlize .Parent.Page.Title) (urlize .Page.Title)) }}
-    {{ end }}
-  {{ $filePath := printf "content/docs/%s" .Name }}
-  {{ with readFile $filePath }}
-    {{ $hostsShortcodes := findRE "(?s){{< hosts-lists(.*?)>}}" . }}
+    {{ partial "button" (dict "url" .Page.RelPermalink "title" "View") }}
 
-    {{ range $hostsShortcodes }}
-      {{ $shortcodeParam := findRE `"([^"]+)"` . }}
-      {{ $shortcodeParamValue := index $shortcodeParam 0 }}
-      {{/* Remove quotes */}}
-      {{ $shortcodeParamValue = $shortcodeParamValue | replaceRE `['"]` "" }}
-      {{ with $shortcodeParamValue }}
-        {{ $listTitle := split . "/" }}
-        <h3>{{ title (index $listTitle 1) }}</h3>
-        {{ partial "hosts-lists" . }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
+    {{ partial "hosts-lists-bulk" . }}
   {{ end }}
 </div>
 {{ end }}

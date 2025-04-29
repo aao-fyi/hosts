@@ -23,9 +23,9 @@
         <div class="card h-100">
         <div class="card-body">
             <h5 class="card-title">
-                {{ with (eq $listType "block") }}{{ partial "icon" "octagon-x" }}{{ end }}
-                {{ with (eq $listType "allow") }}{{ partial "icon" "triangle-alert" }}{{ end }}
-                &nbsp; {{ title (printf "%s %s %s List" $listName $listApps $listType) }}
+                {{ with (eq $listType "block") }}{{ partial "icon" "octagon-x" }} &nbsp;{{ end }}
+                {{ with (eq $listType "allow") }}{{ partial "icon" "triangle-alert" }} &nbsp;{{ end }}
+                {{ title (printf "%s %s %s List" $listName $listApps $listType) }}
             </h5>
             <p class="card-text" aria-hidden="true">Will <strong>{{ $listType }}</strong> connections to all listed domains.</p>
             <p class="card-subtitle">{{ title (printf "%s %s List:" $listApps $listType) }}</p>

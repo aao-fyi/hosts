@@ -1,0 +1,85 @@
+<div class="container my-4">
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4">
+{{ $blockListDNSLists := slice }}
+{{ $blockListUBOLists := slice }}
+{{ $allowListUBOLists := slice }}
+
+{{ range .Pages }}
+    {{ $service := (urlize .Page.Title) }}
+    {{ $blockListDNS := (printf "%s-block-dns.txt" ($service)) }}
+    {{ $blockListUBO := (printf "%s-block-ubo.txt" ($service)) }}
+    {{ $allowListUBO := (printf "%s-allow-ubo.txt" ($service)) }}
+
+    {{ $blockListDNSLists = $blockListDNSLists | append $blockListDNS }}
+    {{ $blockListUBOLists = $blockListUBOLists | append $blockListUBO }}
+    {{ $allowListUBOLists = $allowListUBOLists | append $allowListUBO }}
+{{ end }}
+
+{{/* DNS-Block-Lists */}}
+<div class="col">
+    <div class="card h-100">
+    <div class="card-body">
+        <h5 class="card-title">
+            {{ partial "icon" "octagon-x" }}
+            &nbsp; DNS Block Lists
+        </h5>
+
+<div class="highlight">
+<pre><code>
+{{- range $blockListDNSLists -}}
+{{ printf "https://hosts.aao.fyi/%s" . }}
+{{ end -}}
+</code></pre>
+</div>
+
+    </div>
+    </div>
+</div>
+{{/* /DNS-Block-Lists */}}
+
+{{/* UBO-Block-Lists */}}
+<div class="col">
+    <div class="card h-100">
+    <div class="card-body">
+        <h5 class="card-title">
+            {{ partial "icon" "octagon-x" }}
+            &nbsp; UBO Block Lists
+        </h5>
+
+<div class="highlight">
+<pre><code>
+{{- range $blockListUBOLists -}}
+{{ printf "https://hosts.aao.fyi/%s" . }}
+{{ end -}}
+</code></pre>
+</div>
+
+    </div>
+    </div>
+</div>
+{{/* /UBO-Block-Lists */}}
+
+{{/* UBO-Allow-Lists */}}
+<div class="col">
+    <div class="card h-100">
+    <div class="card-body">
+        <h5 class="card-title">
+            {{ partial "icon" "triangle-alert" }}
+            &nbsp; UBO Allow Lists
+        </h5>
+
+<div class="highlight">
+<pre><code>
+{{- range $allowListUBOLists -}}
+{{ printf "https://hosts.aao.fyi/%s" . }}
+{{ end -}}
+</code></pre>
+</div>
+
+    </div>
+    </div>
+</div>
+{{/* /UBO-Block-Lists */}}
+
+</div>
+</div>
