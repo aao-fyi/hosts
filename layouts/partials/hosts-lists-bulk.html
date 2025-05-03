@@ -6,9 +6,9 @@
 
 {{ range .Pages }}
     {{ $service := (urlize .Page.Title) }}
-    {{ $blockListDNS := (printf "%s-block-dns.txt" ($service)) }}
-    {{ $blockListUBO := (printf "%s-block-ubo.txt" ($service)) }}
-    {{ $allowListUBO := (printf "%s-allow-ubo.txt" ($service)) }}
+    {{ $blockListDNS := (printf "%s/%s-block-dns.txt" (urlize .Section) ($service)) }}
+    {{ $blockListUBO := (printf "%s/%s-block-ubo.txt" (urlize .Section) ($service)) }}
+    {{ $allowListUBO := (printf "%s/%s-allow-ubo.txt" (urlize .Section) ($service)) }}
 
     {{ $blockListDNSLists = $blockListDNSLists | append $blockListDNS }}
     {{ $blockListUBOLists = $blockListUBOLists | append $blockListUBO }}
