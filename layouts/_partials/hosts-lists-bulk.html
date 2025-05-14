@@ -4,6 +4,7 @@
 {{ $blockListUBOLists := slice }}
 {{ $allowListUBOLists := slice }}
 
+{{/* LOOKHERE: FIX THIS, DONT USE ".Section" FOR URL, REFER TO "hosts-lists" PARTIAL FOR PATH SUB METHOD */}}
 {{ range .Pages }}
     {{ $service := (urlize .Page.Title) }}
     {{ $blockListDNS := (printf "%s/%s-block-dns.txt" (urlize .Section) ($service)) }}
