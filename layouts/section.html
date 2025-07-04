@@ -1,0 +1,10 @@
+{{/* Main */}}
+{{ define "main" }}
+  <div class="container">
+  {{/* Card Tree */}}
+  {{ partial "card-tree" . }}
+
+  {{/* Content */}}
+  {{ .Content | safeHTML }}
+  </div>
+{{ end }}
