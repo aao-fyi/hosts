@@ -5,7 +5,6 @@ title = 'Hosts'
 copyright = 'aao.fyi'
 
 # Theme
-# Replace 'gitlab.com' with 'github.com' if error loading
 theme = 'codeberg.org/aao-fyi/shock'
 
 # Features
