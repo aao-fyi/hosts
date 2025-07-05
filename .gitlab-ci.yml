@@ -73,6 +73,16 @@ build-hosts:
         done
       done
 
+    # Delete section data files, prevent manual editing
+    - |
+      for hosts_dir in "${hosts_dirs[@]}"; do
+        dir_name=$(basename "$hosts_dir")
+        output_file="${hosts_dir}/${dir_name}.txt"
+
+        # Delete section data file
+        rm "$output_file"
+      done
+
     # Check for changes and commit
     - |
       if [[ -n $(git status --porcelain) ]]; then
