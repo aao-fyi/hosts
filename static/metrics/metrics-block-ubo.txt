@@ -13,6 +13,12 @@
 ||datadoghq.com^
 ||datadoghq.eu^
 ||ducksboard.com^
+||fingerprint.com^
+||fingerprintjs.com^
+||fingerprintjs.github.io^
+||fpjs.io^
+||fpjs.pro^
+||fpjscdn.net^
 ||geteppo.com^
 ||hdivsecurity.com^
 ||immediatelyapp.com^
