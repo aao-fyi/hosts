@@ -132,6 +132,8 @@
 @@||glintinc.com^
 @@||gogokid.com^
 @@||gowalla.com^
+@@||gravatar.com^
+@@||gravatar.wordpress.com^
 @@||grok.com^
 @@||grokstyle.com^
 @@||hackermeter.com^
