@@ -10,7 +10,7 @@ Zuora are properties of [Silver Lake Technology Management LLC](https://silverla
 
 ## Lists
 
-{{< hosts-lists "finance/zuora" >}}
+{{< hosts-lists "marketing/zuora" >}}
 
 ## References
 

@@ -1,0 +1,2 @@
+/finance/ /marketing/ 301
+/finance/* /marketing/:splat 301

@@ -6,11 +6,11 @@ draft: false
 
 Includes LiveRamp.
 
-LiveRamp are properties of [LiveRamp Holdings, Inc](http://liveramp.com/).
+LiveRamp are properties of [LiveRamp Holdings, Inc](https://liveramp.com/).
 
 ## Lists
 
-{{< hosts-lists "finance/liveramp" >}}
+{{< hosts-lists "marketing/liveramp" >}}
 
 ## References
 
