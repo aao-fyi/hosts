@@ -1,0 +1,6 @@
+/^(.+?\.)?dropcatch\.com$/
+/^(.+?\.)?hugedomains\.com$/
+/^(.+?\.)?hugedomains\.net$/
+/^(.+?\.)?namebright\.com$/
+/^(.+?\.)?namebright\.net$/
+/^(.+?\.)?turncommerce\.com$/

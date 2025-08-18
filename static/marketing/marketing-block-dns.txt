@@ -3,14 +3,19 @@
 /^(.+?\.)?circulate\.com$/
 /^(.+?\.)?datafleets\.com$/
 /^(.+?\.)?dataplusmath\.com$/
+/^(.+?\.)?dropcatch\.com$/
 /^(.+?\.)?faktor\.io$/
 /^(.+?\.)?frontleaf\.com$/
 /^(.+?\.)?habu\.com$/
+/^(.+?\.)?hugedomains\.com$/
+/^(.+?\.)?hugedomains\.net$/
 /^(.+?\.)?klaviyo\.com$/
 /^(.+?\.)?klaviyomail\.com$/
 /^(.+?\.)?leeyo\.com$/
 /^(.+?\.)?liveobjects\.ai$/
 /^(.+?\.)?liveramp\.com$/
+/^(.+?\.)?namebright\.com$/
+/^(.+?\.)?namebright\.net$/
 /^(.+?\.)?napkin\.io$/
 /^(.+?\.)?pacificdatapartners\.com$/
 /^(.+?\.)?pippio\.com$/
@@ -18,5 +23,6 @@
 /^(.+?\.)?rakam\.io$/
 /^(.+?\.)?subx\.tech$/
 /^(.+?\.)?togai\.com$/
+/^(.+?\.)?turncommerce\.com$/
 /^(.+?\.)?zephr\.com$/
 /^(.+?\.)?zuora\.com$/
