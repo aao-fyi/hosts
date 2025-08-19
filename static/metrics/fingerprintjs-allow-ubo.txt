@@ -1,6 +1,0 @@
-@@||fingerprint.com^
-@@||fingerprintjs.com^
-@@||fingerprintjs.github.io^
-@@||fpjs.io^
-@@||fpjs.pro^
-@@||fpjscdn.net^

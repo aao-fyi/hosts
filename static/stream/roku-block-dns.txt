@@ -1,7 +1,0 @@
-/^(.+?\.)?dynastrom\.com$/
-/^(.+?\.)?ravm\.net$/
-/^(.+?\.)?ravm\.tv$/
-/^(.+?\.)?roku\.com$/
-/^(.+?\.)?rokutime\.com$/
-/^(.+?\.)?therokuchannel\.com$/
-/^(.+?\.)?w55c\.net$/

@@ -1,4 +1,0 @@
-/^(.+?\.)?plex\.bz$/
-/^(.+?\.)?plex\.direct$/
-/^(.+?\.)?plex\.tv$/
-/^(.+?\.)?plexapp\.com$/

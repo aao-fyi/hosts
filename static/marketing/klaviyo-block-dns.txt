@@ -1,4 +1,0 @@
-/^(.+?\.)?blueprint\.store$/
-/^(.+?\.)?klaviyo\.com$/
-/^(.+?\.)?klaviyomail\.com$/
-/^(.+?\.)?napkin\.io$/
