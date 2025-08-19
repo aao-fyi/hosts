@@ -4,7 +4,7 @@ description: FingerprintJS hosts lists.
 draft: false
 ---
 
-Includes FingerprintJS.
+Hosts lists including FingerprintJS.
 
 FingerprintJS are properties of [FingerprintJS Inc](https://fingerprint.com/).
 

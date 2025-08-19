@@ -4,7 +4,7 @@ description: New Relic hosts lists.
 draft: false
 ---
 
-Includes New Relic.
+Hosts lists including New Relic.
 
 New Relic are properties of [Francisco Partners Management, LP](https://franciscopartners.com/) and [TPG Inc](https://tpg.com/).
 

@@ -4,7 +4,7 @@ description: UltraViewer hosts lists.
 draft: false
 ---
 
-Includes UltraViewer.
+Hosts lists including UltraViewer.
 
 UltraViewer are properties of [DucFabulous Research & Development Science Co, LTD](https://ultraviewer.net/).
 

@@ -4,7 +4,7 @@ description: Zuora hosts lists.
 draft: false
 ---
 
-Includes Zuora, Frontleaf, Leeyo Software, Live Objects, Sub(x) Technology, Togai, and Zephr.
+Hosts lists including Zuora, Frontleaf, Leeyo Software, Live Objects, Sub(x) Technology, Togai, and Zephr.
 
 Zuora are properties of [Silver Lake Technology Management LLC](https://silverlake.com/) and [GIC Private Limited](https://www.gic.com.sg/).
 

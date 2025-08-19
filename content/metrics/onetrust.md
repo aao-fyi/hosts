@@ -4,7 +4,7 @@ description: OneTrust hosts lists.
 draft: false
 ---
 
-Includes OneTrust.
+Hosts lists including OneTrust.
 
 OneTrust are properties of [OneTrust LLC](https://onetrust.com/).
 

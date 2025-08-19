@@ -4,7 +4,7 @@ description: TurnCommerce hosts lists.
 draft: false
 ---
 
-Includes TurnCommerce, DropCatch, HugeDomains, and NameBright.
+Hosts lists including TurnCommerce, DropCatch, HugeDomains, and NameBright.
 
 TurnCommerce are properties of [TurnCommerce, Inc](https://turncommerce.com/).
 

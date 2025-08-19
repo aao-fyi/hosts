@@ -4,7 +4,7 @@ description: LiveRamp hosts lists.
 draft: false
 ---
 
-Includes LiveRamp.
+Hosts lists including LiveRamp.
 
 LiveRamp are properties of [LiveRamp Holdings, Inc](https://liveramp.com/).
 

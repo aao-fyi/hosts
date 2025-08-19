@@ -4,7 +4,7 @@ description: Klaviyo hosts lists.
 draft: false
 ---
 
-Includes Klaviyo.
+Hosts lists including Klaviyo.
 
 Klaviyo are properties of [Klaviyo, Inc](https://klaviyo.com/).
 

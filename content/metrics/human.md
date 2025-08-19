@@ -4,7 +4,7 @@ description: HUMAN hosts lists.
 draft: false
 ---
 
-Includes HUMAN.
+Hosts lists including HUMAN.
 
 HUMAN are properties of [The Goldman Sachs Group Inc](https://goldmansachs.com/).
 

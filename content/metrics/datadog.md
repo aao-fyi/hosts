@@ -4,7 +4,7 @@ description: Datadog hosts lists.
 draft: false
 ---
 
-Includes Datadog.
+Hosts lists including Datadog.
 
 Datadog are properties of [Datadog Inc](https://datadoghq.com/).
 

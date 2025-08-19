@@ -4,7 +4,7 @@ description: Comscore hosts lists.
 draft: false
 ---
 
-Includes Comscore.
+Hosts lists including Comscore.
 
 Comscore are properties of [Comscore, Inc](https://comscore.com/).
 
