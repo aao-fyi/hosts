@@ -12,12 +12,12 @@
 
     {{ partial "button" (dict "url" .Page.RelPermalink "title" "View Services") }}
 
-    <h3 class="mt-3">Service Lists</h3>
-    {{ partial "hosts-lists-bulk" . }}
-
-    <h3>Section Lists</h3>
+    <h3 class="mt-3">Section Lists</h3>
     {{ $lowerTitle := (urlize .Page.Title) }}
     {{ partial "hosts-lists" (printf "%s/%s" $lowerTitle $lowerTitle) }}
+
+    <h3 class="mt-3">Service Lists</h3>
+    {{ partial "hosts-lists-bulk" . }}
   {{ end }}
 </div>
 {{ end }}
