@@ -2,13 +2,13 @@
 {{ $inputSplit := split $input "/" }}
 {{ $listName := index $inputSplit 1 }}
 
-{{ $blockListDNS := (printf "%s-block-dns" (lower $input)) }}
-{{ $blockListUBO := (printf "%s-block-ubo" (lower $input)) }}
-{{ $allowListUBO := (printf "%s-allow-ubo" (lower $input)) }}
+{{ $blockListRGX := (printf "%s-block-rgx" (lower $input)) }}
+{{ $blockListADB := (printf "%s-block-adb" (lower $input)) }}
+{{ $allowListADB := (printf "%s-allow-adb" (lower $input)) }}
 <div class="container my-4">
 <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-2 row-cols-sm-1 g-4">
 
-{{ range $list := slice $blockListDNS $blockListUBO $allowListUBO }}
+{{ range $list := slice $blockListRGX $blockListADB $allowListADB }}
 
     {{ $listSplit := split $list "-" }}
     {{/* List Type is second to last definition in list name, block/allow */}}

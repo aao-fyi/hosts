@@ -55,14 +55,14 @@ build-hosts:
 
         mkdir -p "${static_path}"
 
-        # Generate DNS block
-        awk '{ gsub("\\.", "\\\\&", $0); printf "/^(.+?\\.)?%s$/\n", $0; }' "$hosts_file" > "${static_path}/${service_name}-block-dns.txt"
+        # Generate Regex block
+        awk '{ gsub("\\.", "\\\\&", $0); printf "/^(.+?\\.)?%s$/\n", $0; }' "$hosts_file" > "${static_path}/${service_name}-block-rgx.txt"
 
-        # Generate UBO block
-        awk '{ printf "||%s^\n", $0 }' "$hosts_file" > "${static_path}/${service_name}-block-ubo.txt"
+        # Generate Adblock block
+        awk '{ printf "||%s^\n", $0 }' "$hosts_file" > "${static_path}/${service_name}-block-adb.txt"
 
-        # Generate UBO allow
-        awk '{ printf "@@||%s^\n", $0 }' "$hosts_file" > "${static_path}/${service_name}-allow-ubo.txt"
+        # Generate Adblock allow
+        awk '{ printf "@@||%s^\n", $0 }' "$hosts_file" > "${static_path}/${service_name}-allow-adb.txt"
 
         # Calculate SHA-256 checksum
         for output_file in "${static_path}"/*.txt; do

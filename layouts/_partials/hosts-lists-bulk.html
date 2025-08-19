@@ -1,33 +1,33 @@
 <div class="container my-4">
 <div class="row row-cols-1 row-cols-xl-3 row-cols-md-2 row-cols-sm-1 g-4">
-{{ $blockListDNSLists := slice }}
-{{ $blockListUBOLists := slice }}
-{{ $allowListUBOLists := slice }}
+{{ $blockListRGXLists := slice }}
+{{ $blockListADBLists := slice }}
+{{ $allowListADBLists := slice }}
 
 {{/* LOOKHERE: FIX THIS, DONT USE ".Section" FOR URL, REFER TO "hosts-lists" PARTIAL FOR PATH SUB METHOD */}}
 {{ range .Pages }}
     {{ $service := (urlize .Page.Title) }}
-    {{ $blockListDNS := (printf "%s/%s-block-dns.txt" (urlize .Section) ($service)) }}
-    {{ $blockListUBO := (printf "%s/%s-block-ubo.txt" (urlize .Section) ($service)) }}
-    {{ $allowListUBO := (printf "%s/%s-allow-ubo.txt" (urlize .Section) ($service)) }}
+    {{ $blockListRGX := (printf "%s/%s-block-rgx.txt" (urlize .Section) ($service)) }}
+    {{ $blockListADB := (printf "%s/%s-block-adb.txt" (urlize .Section) ($service)) }}
+    {{ $allowListADB := (printf "%s/%s-allow-adb.txt" (urlize .Section) ($service)) }}
 
-    {{ $blockListDNSLists = $blockListDNSLists | append $blockListDNS }}
-    {{ $blockListUBOLists = $blockListUBOLists | append $blockListUBO }}
-    {{ $allowListUBOLists = $allowListUBOLists | append $allowListUBO }}
+    {{ $blockListRGXLists = $blockListRGXLists | append $blockListRGX }}
+    {{ $blockListADBLists = $blockListADBLists | append $blockListADB }}
+    {{ $allowListADBLists = $allowListADBLists | append $allowListADB }}
 {{ end }}
 
-{{/* DNS-Block-Lists */}}
+{{/* RGX-Block-Lists */}}
 <div class="col">
     <div class="card h-100">
     <div class="card-body">
         <h5 class="card-title">
             <span class="text-danger">{{ partial "icon" "octagon-x" }}</span>
-            &nbsp; DNS Block Lists
+            &nbsp; Regex Block Lists
         </h5>
 
 <div class="highlight">
 <pre><code>
-{{- range $blockListDNSLists -}}
+{{- range $blockListRGXLists -}}
 {{ printf "https://hosts.aao.fyi/%s" . }}
 {{ end -}}
 </code></pre>
@@ -36,20 +36,20 @@
     </div>
     </div>
 </div>
-{{/* /DNS-Block-Lists */}}
+{{/* /RGX-Block-Lists */}}
 
-{{/* UBO-Block-Lists */}}
+{{/* ADB-Block-Lists */}}
 <div class="col">
     <div class="card h-100">
     <div class="card-body">
         <h5 class="card-title">
             <span class="text-danger">{{ partial "icon" "octagon-x" }}</span>
-            &nbsp; UBO Block Lists
+            &nbsp; Adblock Block Lists
         </h5>
 
 <div class="highlight">
 <pre><code>
-{{- range $blockListUBOLists -}}
+{{- range $blockListADBLists -}}
 {{ printf "https://hosts.aao.fyi/%s" . }}
 {{ end -}}
 </code></pre>
@@ -58,20 +58,20 @@
     </div>
     </div>
 </div>
-{{/* /UBO-Block-Lists */}}
+{{/* /ADB-Block-Lists */}}
 
-{{/* UBO-Allow-Lists */}}
+{{/* ADB-Allow-Lists */}}
 <div class="col">
     <div class="card h-100">
     <div class="card-body">
         <h5 class="card-title">
             <span class="text-warning">{{ partial "icon" "triangle-alert" }}</span>
-            &nbsp; UBO Allow Lists
+            &nbsp; Adblock Allow Lists
         </h5>
 
 <div class="highlight">
 <pre><code>
-{{- range $allowListUBOLists -}}
+{{- range $allowListADBLists -}}
 {{ printf "https://hosts.aao.fyi/%s" . }}
 {{ end -}}
 </code></pre>
@@ -80,7 +80,7 @@
     </div>
     </div>
 </div>
-{{/* /UBO-Block-Lists */}}
+{{/* /ADB-Block-Lists */}}
 
 </div>
 </div>
