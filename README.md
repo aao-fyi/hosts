@@ -10,9 +10,9 @@ Refer to the [hosts.aao.fyi](https://hosts.aao.fyi/) website for a complete list
 
 Each service will have the following lists. Replace `.txt` with `.sum` for a SHA-256 checksum for each file.
 
-+ `*-block-rgx.txt` Regex block list.
-+ `*-block-adb.txt` Adblock block list.
-+ `*-allow-adb.txt` Adblock allow list.
++ `*-block-rgx.txt` Regex syntax block list.
++ `*-block-adb.txt` Adblock syntax block list.
++ `*-allow-adb.txt` Adblock syntax allow list.
 
 Usage of the block lists will break the corresponding services.
 
