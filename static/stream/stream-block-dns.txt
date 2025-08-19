@@ -55,6 +55,8 @@
 /^(.+?\.)?spryfox\.com$/
 /^(.+?\.)?srslabs\.com$/
 /^(.+?\.)?storybots\.comgooglevideo\.com$/
+/^(.+?\.)?telly\.rippling-ats\.com$/
+/^(.+?\.)?telly\.zendesk\.com$/
 /^(.+?\.)?tessera\.com$/
 /^(.+?\.)?therokuchannel\.com$/
 /^(.+?\.)?tivo\.com$/
@@ -233,4 +235,4 @@
 /^(.+?\.)?ytimg\.com$/
 /^(.+?\.)?ytimg\.l\.google\.com$/
 /^(.+?\.)?ytkids\.app\.goo\.gl$/
-/^(.+?\.)?ziptronix\.com$/
+/^(.+?\.)?ziptronix\.comtelly\.com$/

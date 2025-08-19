@@ -3,6 +3,9 @@
 @@||circulate.com^
 @@||datafleets.com^
 @@||dataplusmath.com^
+@@||designcontest.com^
+@@||designcontest.net^
+@@||designcontest.nyc3.digitaloceanspaces.com^
 @@||dropcatch.com^
 @@||faktor.io^
 @@||frontleaf.com^
@@ -18,6 +21,7 @@
 @@||namebright.net^
 @@||napkin.io^
 @@||pacificdatapartners.com^
+@@||perfectdomain.com^
 @@||pippio.com^
 @@||privacymanager.io^
 @@||rakam.io^
