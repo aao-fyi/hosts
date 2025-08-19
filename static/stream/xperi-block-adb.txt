@@ -1,0 +1,15 @@
+||aereo.com^
+||dts.com^
+||eyesquad.com^
+||ibiquity.com^
+||manzanitasystems.com^
+||phorus.com^
+||siimpel.com^
+||srslabs.com^
+||tessera.com^
+||tivo.com^
+||tivoservice.com^
+||veveo.net^
+||vewd.com^
+||xperi.com^
+||ziptronix.com^

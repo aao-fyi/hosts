@@ -1,0 +1,12 @@
+/^(.+?\.)?clean\.gg$/
+/^(.+?\.)?clean\.io$/
+/^(.+?\.)?humansecurity\.com$/
+/^(.+?\.)?perimeterx\.com$/
+/^(.+?\.)?perimeterx\.net$/
+/^(.+?\.)?protechts\.net$/
+/^(.+?\.)?quilvem\.com$/
+/^(.+?\.)?rvikjd\.com$/
+/^(.+?\.)?sharethru\.com$/
+/^(.+?\.)?tpcserve\.com$/
+/^(.+?\.)?whiteops\.com$/
+/^(.+?\.)?xlgmedia\.com$/
