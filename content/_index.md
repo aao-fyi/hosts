@@ -1,10 +1,10 @@
 ---
 title: Hosts
-description: Host lists for regex-supporting DNS applications and browser blockers.
+description: Host lists for common services in adblock and regex syntax.
 draft: false
 ---
 
-Host lists for regex-supporting DNS applications ([AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)) and browser blockers ([uBlock Origin](https://github.com/gorhill/uBlock/)). View the service-specific pages for references and list mirrors.
+Host lists for common services in adblock and regex syntax. Useful with ([AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)) and ([uBlock Origin](https://github.com/gorhill/uBlock/)). View the service-specific pages for references and list mirrors.
 
 This project has **no affiliation** with any of the services mentioned. For information regarding specified services, please refer to the respective service website.
 
