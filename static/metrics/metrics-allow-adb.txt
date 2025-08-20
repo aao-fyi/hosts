@@ -76,6 +76,8 @@
 @@||sqreen.com^
 @@||tnsmetrix.net^
 @@||tpcserve.com^
+@@||trueanthem.com^
+@@||trueanthemtemp.wpengine.com^
 @@||tugboatlogic.com^
 @@||undefinedlabs.com^
 @@||vector.dev^
