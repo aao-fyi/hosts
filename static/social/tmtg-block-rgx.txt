@@ -1,0 +1,6 @@
+/^(.+?\.)?dwacspac\.com$/
+/^(.+?\.)?tmtgcorp\.com$/
+/^(.+?\.)?truthsocial\.com$/
+/^(.+?\.)?truthsocial\.statuspage\.io$/
+/^(.+?\.)?truthsocial\.tv$/
+/^(.+?\.)?worldconnectiptv\.com$/

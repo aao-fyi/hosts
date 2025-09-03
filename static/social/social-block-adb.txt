@@ -8,6 +8,7 @@
 ||alienblue.org^
 ||alienreddit.com^
 ||alphareddit.com^
+||amemv.com^
 ||armature.com^
 ||artreddit.com^
 ||ascenta-hale.co.uk^
@@ -727,6 +728,7 @@
 ||tiktokv.us^
 ||tlivecdn.com^
 ||tlivepush.com^
+||tmtgcorp.com^
 ||tokopedia.com^
 ||tokopedia.net^
 ||topbuzz.com^
@@ -747,6 +749,9 @@
 ||travelreddit.com^
 ||trendingonreddit.com^
 ||trendreddit.com^
+||truthsocial.com^
+||truthsocial.statuspage.io^
+||truthsocial.tv^
 ||tryonshorts.com^
 ||ttdns2.com^
 ||ttlivecdn.com^
@@ -808,6 +813,7 @@
 ||with.in^
 ||wonderreddit.com^
 ||workplace.com^
+||worldconnectiptv.com^
 ||worldreddit.com^
 ||wtfreddit.com^
 ||x.ai^
@@ -816,4 +822,4 @@
 ||zen.lyakapinimg.net^
 ||zenbe.com^
 ||zenreddit.com^
-||zurich-eye.comamemv.com^
+||zurich-eye.comdwacspac.com^
