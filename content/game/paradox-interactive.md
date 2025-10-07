@@ -4,9 +4,9 @@ description: Paradox Interactive hosts lists.
 draft: false
 ---
 
-Hosts lists including Paradox Interactive.
+Hosts lists including Paradox Interactive, Haemimount Games, Harebrained Schemes, Iceflake Studios, Playiron Game Studio, Triumph Studios, White Wolf Publishing, and Colossal Order.
 
-Paradox Interactive are properties of [Paradox Interactive AB](https://paradoxinteractive.com/).
+Paradox Interactive are properties of [Paradox Interactive AB](https://paradoxinteractive.com/). Colossal Order are properties of [Colossal Order Ltd](https://colossalorder.fi/).
 
 ## Lists
 
@@ -14,6 +14,7 @@ Paradox Interactive are properties of [Paradox Interactive AB](https://paradoxin
 
 ## References
 
++ Crunchbase. "Colossal Order." 2025. https://crunchbase.com/organization/colossal-order.
 + Crunchbase. "Haemimont Games." 2025. https://crunchbase.com/organization/haemimont-games.
 + Crunchbase. "Harebrained Schemes." 2025. https://crunchbase.com/organization/harebrained-schemes.
 + Crunchbase. "Iceflake Studios." 2025. https://crunchbase.com/organization/iceflake-studios.
@@ -30,6 +31,7 @@ Paradox Interactive are properties of [Paradox Interactive AB](https://paradoxin
 + PitchBook. "Playrion." 2025. https://pitchbook.com/profiles/company/88322-41.
 + PitchBook. "Triumph Studios." 2025. https://pitchbook.com/profiles/company/176820-49.
 + PitchBook. "White Wolf Publishing." 2025. https://pitchbook.com/profiles/company/126592-84.
++ Wikipedia. "Colossal Order." 2025. https://wikipedia.org/wiki/Colossal_Order_(company).
 + Wikipedia. "Harebrained Schemes." 2025. https://wikipedia.org/wiki/Harebrained_Schemes.
 + Wikipedia. "Paradox Interactive." 2025. https://wikipedia.org/wiki/Paradox_Interactive.
 + Wikipedia. "White Wolf Publishing." 2025. https://wikipedia.org/wiki/White_Wolf_Publishing.
