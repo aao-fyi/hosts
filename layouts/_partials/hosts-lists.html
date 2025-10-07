@@ -33,10 +33,6 @@
             <div class="highlight">
                 <pre><code>{{ printf "https://hosts.aao.fyi/%s" $listTXT }}</code></pre>
             </div>
-            <p class="card-subtitle">SHA-256 Checksum:</p>
-            <div class="highlight">
-                <pre><code>{{ $test := readFile (printf "static/%s" $listSUM) }}{{ $test }}</code></pre>
-            </div>
         </div>
 
         {{/* Card Footer */}}
