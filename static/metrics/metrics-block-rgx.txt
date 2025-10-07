@@ -78,6 +78,8 @@
 /^(.+?\.)?sharethru\.com$/
 /^(.+?\.)?signifai\.io$/
 /^(.+?\.)?sqreen\.com$/
+/^(.+?\.)?thumbmarkjs\.com$/
+/^(.+?\.)?thumbmarkjs\.github\.io$/
 /^(.+?\.)?timerazor\.com$/
 /^(.+?\.)?tnsmetrix\.net$/
 /^(.+?\.)?tpcserve\.com$/
