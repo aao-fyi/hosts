@@ -4,7 +4,7 @@ description: LinkedIn hosts lists.
 draft: false
 ---
 
-Hosts lists including LinkedIn and more.
+Hosts lists including LinkedIn and others.
 
 LinkedIn are properties of [Microsoft Corp](https://microsoft.com/).
 
