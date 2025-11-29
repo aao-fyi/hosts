@@ -23,5 +23,5 @@ OneTrust are properties of [OneTrust LLC](https://onetrust.com/).
 + PitchBook. "Planetly." 2025. https://pitchbook.com/profiles/company/433974-07.
 + PitchBook. "Shared Assessments." 2025. https://pitchbook.com/profiles/company/325146-34.
 + PitchBook. "Tugboat Logic." 2025. https://pitchbook.com/profiles/company/277390-99.
-+ PitchBook. Convercent"." 2025. https://pitchbook.com/profiles/company/56024-11.
++ PitchBook. "Convercent." 2025. https://pitchbook.com/profiles/company/56024-11.
 + Wikipedia. "Rentrak." 2025. https://wikipedia.org/wiki/Rentrak.
