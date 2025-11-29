@@ -2,6 +2,7 @@
 /^(.+?\.)?aerodome\.com$/
 /^(.+?\.)?arsgroup\.com$/
 /^(.+?\.)?asanalyzer\.co\.uk$/
+/^(.+?\.)?atinternet\.com$/
 /^(.+?\.)?browser-intake-datadoghq\.com$/
 /^(.+?\.)?browser-intake-datadoghq\.eu$/
 /^(.+?\.)?browser-intake-us5-datadoghq\.com$/
@@ -16,6 +17,7 @@
 /^(.+?\.)?convercent\.com$/
 /^(.+?\.)?coscale\.com$/
 /^(.+?\.)?coscreen\.co$/
+/^(.+?\.)?cxense\.com$/
 /^(.+?\.)?datadog\.com$/
 /^(.+?\.)?datadoghq-browser-agent\.com$/
 /^(.+?\.)?datadoghq\.azurecr\.io$/
@@ -46,13 +48,16 @@
 /^(.+?\.)?logmatic\.io$/
 /^(.+?\.)?lucidustech\.com$/
 /^(.+?\.)?madumbo\.com$/
+/^(.+?\.)?maxifier\.com$/
 /^(.+?\.)?mediametrix\.com$/
 /^(.+?\.)?metaplane\.dev$/
 /^(.+?\.)?mmetrics\.com$/
 /^(.+?\.)?mortardata\.com$/
+/^(.+?\.)?mypressplus\.com$/
 /^(.+?\.)?nedstat\.com$/
 /^(.+?\.)?newrelic-external\.com$/
 /^(.+?\.)?newrelic\.com$/
+/^(.+?\.)?newzmate\.com$/
 /^(.+?\.)?nr-assets\.net$/
 /^(.+?\.)?nr-data\.net$/
 /^(.+?\.)?nr-dns\.net$/
@@ -66,6 +71,8 @@
 /^(.+?\.)?oz-code\.com$/
 /^(.+?\.)?perimeterx\.com$/
 /^(.+?\.)?perimeterx\.net$/
+/^(.+?\.)?piano\.io$/
+/^(.+?\.)?pianomedia\.com$/
 /^(.+?\.)?pixielabs\.ai$/
 /^(.+?\.)?planetly\.com$/
 /^(.+?\.)?protechts\.net$/
@@ -81,10 +88,13 @@
 /^(.+?\.)?sharedassessments\.org$/
 /^(.+?\.)?sharethru\.com$/
 /^(.+?\.)?signifai\.io$/
+/^(.+?\.)?socialflow\.com$/
 /^(.+?\.)?sqreen\.com$/
+/^(.+?\.)?swishu\.com$/
 /^(.+?\.)?thumbmarkjs\.com$/
 /^(.+?\.)?thumbmarkjs\.github\.io$/
 /^(.+?\.)?timerazor\.com$/
+/^(.+?\.)?tinypass\.com$/
 /^(.+?\.)?tnsmetrix\.net$/
 /^(.+?\.)?tpcserve\.com$/
 /^(.+?\.)?trueanthem\.com$/
