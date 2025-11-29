@@ -20,6 +20,10 @@
 @@||namebright.com^
 @@||namebright.net^
 @@||napkin.io^
+@@||onesignal.com^
+@@||onesignal.email^
+@@||onesignal.github.io^
+@@||onesignaldevelopers.github.io^
 @@||pacificdatapartners.com^
 @@||perfectdomain.com^
 @@||pippio.com^
