@@ -1,4 +1,5 @@
 ||actiondesk.io^
+||aerodome.com^
 ||arsgroup.com^
 ||asanalyzer.co.uk^
 ||browser-intake-datadoghq.com^
@@ -26,6 +27,8 @@
 ||fingerprint.com^
 ||fingerprintjs.com^
 ||fingerprintjs.github.io^
+||flock-public-assets.s3.us-east-1.amazonaws.com^
+||flocksafety.com^
 ||fogdatascience.com^
 ||fogds.com^
 ||fogreveal.com^
@@ -41,6 +44,7 @@
 ||iopipe.com^
 ||jmm.com^
 ||logmatic.io^
+||lucidustech.com^
 ||madumbo.com^
 ||mediametrix.com^
 ||metaplane.dev^
@@ -91,6 +95,7 @@
 ||unacast.net^
 ||unacastapis.com^
 ||undefinedlabs.com^
+||uniformsierra.com^
 ||vector.dev^
 ||venntel.com^
 ||whiteops.com^

@@ -1,0 +1,5 @@
+/^(.+?\.)?aerodome\.com$/
+/^(.+?\.)?flock-public-assets\.s3\.us-east-1\.amazonaws\.com$/
+/^(.+?\.)?flocksafety\.com$/
+/^(.+?\.)?lucidustech\.com$/
+/^(.+?\.)?uniformsierra\.com$/
