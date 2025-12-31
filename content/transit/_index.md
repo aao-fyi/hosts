@@ -2,6 +2,7 @@
 title: "Transit"
 description: "Hosts lists for transit services."
 icon: "car"
+menu: "main"
 draft: false
 ---
 

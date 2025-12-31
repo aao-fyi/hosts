@@ -2,6 +2,7 @@
 title: "Remote"
 description: "Hosts lists for remote access services."
 icon: "screen-share"
+menu: "main"
 draft: false
 ---
 
