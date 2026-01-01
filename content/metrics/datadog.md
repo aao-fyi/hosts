@@ -36,5 +36,19 @@ Datadog are properties of [Datadog Inc](https://datadoghq.com/).
 + Datadog. "Datadog acquires Sqreen to strengthen application security." 2021. https://datadoghq.com/blog/datadog-acquires-sqreen/.
 + Datadog. "Datadog." 2025. https://datadoghq.com/.
 + Datadog. "Network Traffic." 2025. https://docs.datadoghq.com/agent/configuration/network/.
++ PitchBook. "Actiondesk." 2025. https://pitchbook.com/profiles/company/265019-95.
++ PitchBook. "Cloudcraft." 2025. https://pitchbook.com/profiles/company/232304-59.
++ PitchBook. "CoScreen." 2025. https://pitchbook.com/profiles/company/435065-23.
++ PitchBook. "Codiga." 2025. https://pitchbook.com/profiles/company/464217-40.
++ PitchBook. "Datadog." 2025. https://pitchbook.com/profiles/company/53904-79.
++ PitchBook. "Eppo." 2025. https://pitchbook.com/profiles/company/466730-74.
++ PitchBook. "Hdiv Security." 2025. https://pitchbook.com/profiles/company/233007-94.
 + PitchBook. "Madumbo." 2025. https://pitchbook.com/profiles/company/265366-99.
++ PitchBook. "Metaplane." 2025. https://pitchbook.com/profiles/company/327560-14.
++ PitchBook. "Mortar Data." 2025. https://pitchbook.com/profiles/company/54171-28.
++ PitchBook. "OzCode." 2025. https://pitchbook.com/profiles/company/234530-74.
++ PitchBook. "Quickwit." 2025. https://pitchbook.com/profiles/company/481651-21.
++ PitchBook. "Seekret." 2025. https://pitchbook.com/profiles/company/453497-59.
++ PitchBook. "Timber Technologies." 2025. https://pitchbook.com/profiles/company/155729-98.
++ PitchBook. "Undefined Labs." 2025. https://pitchbook.com/profiles/company/399575-53.
 + Wikipedia. "Datadog." 2025. https://wikipedia.org/wiki/Datadog.
