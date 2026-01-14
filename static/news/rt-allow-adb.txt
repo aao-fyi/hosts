@@ -18,5 +18,7 @@
 @@||ruptly.agency^
 @@||ruptly.tv^
 @@||russiatoday.com^
+@@||russiatoday.ru^
+@@||shop-rt.com^
 @@||swentr.site^
 @@||wearemaffick.com^

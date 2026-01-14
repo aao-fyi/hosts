@@ -27,7 +27,9 @@
 ||ruptly.agency^
 ||ruptly.tv^
 ||russiatoday.com^
+||russiatoday.ru^
 ||sahartv.ir^
+||shop-rt.com^
 ||swentr.site^
 ||tv1.ir^
 ||tv2.ir^
