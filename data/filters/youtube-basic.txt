@@ -1,0 +1,55 @@
+! Allow Domains
+@@||googlevideo.com^
+@@||youtu.be^
+@@||youtube.com^
+@@||ytimg.com^
+
+! Ask
+youtube.com##yt-video-description-youchat-section-view-model
+youtube.com##yt-button-view-model:has-text(/^Ask/i)
+
+! Banner
+youtube.com###big-yoodle
+
+! Comments / Chat
+youtube.com###comments
+youtube.com###chat-container
+youtube.com###comment-teaser
+youtube.com###teaser-carousel
+
+! Sidebar - Sections
+youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text("Explore"))
+youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text("More from YouTube"))
+youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text("Settings"))
+
+! Sidebar - Entries
+youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text("Shorts"))
+youtube.com##ytd-mini-guide-entry-renderer:has(yt-formatted-string:has-text("Shorts"))
+
+! Rich Sections - Shorts / YouTubeTV / Features
+youtube.com##ytd-rich-section-renderer
+
+! Rich Videos - Shorts
+youtube.com##ytd-rich-item-renderer:has(.yt-lockup-metadata-view-model__title:has-text("/#Shorts/i"))
+youtube.com##ytd-rich-item-renderer:has(.yt-lockup-view-model__content-image:has([overlay-style="SHORTS"]))
+
+! Search Sections - Shorts
+youtube.com##grid-shelf-view-model:has(.yt-shelf-header-layout__title:has-text("Shorts"))
+
+! Search Videos - Shorts
+youtube.com##ytd-video-renderer:has(#video-title:has-text("/#Shorts/i"))
+youtube.com##ytd-video-renderer:has(#thumbnail:has([overlay-style="SHORTS"]))
+
+! Channel Section - Shorts
+youtube.com##ytd-item-section-renderer:has(ytd-reel-shelf-renderer)
+youtube.com##ytm-shorts-lockup-view-model-v2
+
+! Channel Section - Posts
+youtube.com##ytd-item-section-renderer:has(.ytd-shelf-renderer:has-text("Posts"))
+youtube.com##ytd-item-section-renderer:has(ytd-recognition-shelf-renderer)
+
+! Channel Tabs
+youtube.com##yt-tab-shape:has-text("Shorts")
+youtube.com##yt-tab-shape:has-text("Posts")
+youtube.com##yt-tab-shape:has-text("Store")
+youtube.com##div.tabGroupShapeSlider
