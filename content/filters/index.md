@@ -1,8 +1,9 @@
 ---
 title: Filters
 description: Content filter lists.
-icon: "list-filter"
+icon: "funnel-x"
 menu: "main"
+weight: 99
 draft: false
 ---
 
