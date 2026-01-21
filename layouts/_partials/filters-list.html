@@ -2,33 +2,26 @@
 {{ $inputSplit := split $input "/" }}
 {{ $listName := index $inputSplit 1 }}
 
-{{ $blockListRGX := (printf "%s-block-rgx" (lower $input)) }}
-{{ $blockListADB := (printf "%s-block-adb" (lower $input)) }}
-{{ $allowListADB := (printf "%s-allow-adb" (lower $input)) }}
-<div class="container my-4">
-<div class="row row-cols-1 row-cols-xl-3 row-cols-lg-2 row-cols-sm-1 g-4">
+{{ $filterListADB := (printf "%s-adb" (lower $input)) }}
 
-{{ range $list := slice $blockListRGX $blockListADB $allowListADB }}
-
-    {{ $listSplit := split $list "-" }}
-    {{/* List Type is second to last definition in list name, block/allow */}}
-    {{ $listType := index $listSplit (sub (len $listSplit) 2) }}
+<div class="row row-cols-1 row-cols-xl-2 g-4">
+    {{ $listSplit := split $filterListADB "-" }}
+    {{/* List Type is second to last definition in list name */}}
     {{ $listApps := upper (index $listSplit (sub (len $listSplit) 1)) }}
 
-    {{ $listTXT := (printf "%s.txt" $list) }}
-    {{ $listSUM := (printf "%s.sum" $list) }}
+    {{ $listTXT := (printf "%s.txt" $filterListADB) }}
+    {{ $listSUM := (printf "%s.sum" $filterListADB) }}
 
     {{ if and (fileExists (printf "static/%s" $listTXT)) (fileExists (printf "static/%s" $listSUM)) }}
     <div class="col">
         <div class="card h-100">
         <div class="card-body">
             <h5 class="card-title">
-                {{ with (eq $listType "block") }}<span class="text-danger">{{ partial "icon" "octagon-x" }}</span>&nbsp;{{ end }}
-                {{ with (eq $listType "allow") }}<span class="text-warning">{{ partial "icon" "triangle-alert" }}</span>&nbsp;{{ end }}
-                {{ title (printf "%s %s %s List" $listName $listApps $listType) }}
+                <span class="text-danger">{{ partial "icon" "list-filter" }}</span>&nbsp;
+                {{ title (printf "%s %s List" $listName $listApps) }}
             </h5>
-            <p class="card-text">Will <strong>{{ $listType }}</strong> connections to all listed domains.</p>
-            <p class="card-subtitle">{{ title (printf "%s %s List:" $listApps $listType) }}</p>
+            <p class="card-text">Will filter DOM content on listed domains.</p>
+            <p class="card-subtitle">ADB Filter List:</p>
             <div class="highlight">
                 <pre><code>{{ printf "https://hosts.aao.fyi/%s" $listTXT }}</code></pre>
             </div>
@@ -45,6 +38,4 @@
         </div>
     </div>
     {{ end }}
-{{ end }}
-</div>
 </div>
