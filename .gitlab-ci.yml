@@ -30,20 +30,20 @@ build-hosts:
     # Checkout
     - git checkout -b build
   script:
-    # Find hosts directories
-    - hosts_dirs=($(find data -type f -name "*.txt" | xargs -n1 dirname | sort -u))
+    # Find hosts directories, exclude filters
+    - hosts_dirs=($(find data -type f -name "*.txt" -not -path "*/filters/*" | xargs -n1 dirname | sort -u))
     # Build each hosts directories file, add to hosts_files list
     - |
       for hosts_dir in "${hosts_dirs[@]}"; do
         dir_name=$(basename "$hosts_dir")
         output_file="${hosts_dir}/${dir_name}.txt"
 
-        # Only include .txt files in this exact directory (non-recursive)
+        # Include .txt files in directory (non-recursive)
         find "$hosts_dir" -maxdepth 1 -type f -name "*.txt" ! -name "${dir_name}.txt" -exec cat {} + | sort -u > "$output_file"
       done
 
-    # Find hosts files
-    - hosts_files=($(find data -type f -name "*.txt" | sort))
+    # Find hosts files, exclude filters
+    - hosts_files=($(find data -type f -name "*.txt" -not -path "*/filters/*" | sort))
 
     # Build each hosts file
     - |
@@ -81,6 +81,30 @@ build-hosts:
 
         # Delete section data file
         rm "$output_file"
+      done
+
+    # Find filters files
+    - filters_files=($(find data/filters -type f -name "*.txt" | sort))
+    - filters_path="static/filters/"
+
+    # Build filters
+    - |
+      for filter_file in "${filters_files[@]}"; do
+        filter_name=$(basename "$filter_file" .txt)
+
+        mkdir -p "${filters_path}"
+
+        # Generate minified filter list
+        awk '!/^$/ && !/^!/' "$filter_file" > "${filters_path}/${filter_name}-adb.txt"
+      done
+
+    # Calculate filters SHA-256 checksum
+    - |
+      for output_file in "${filters_path}"/*.txt; do
+        if [[ -f "$output_file" ]]; then
+          sum_file="${output_file%.*}.sum"
+          sha256sum "$output_file" | awk '{print $1}' > "$sum_file"
+        fi
       done
 
     # Check for changes and commit
