@@ -1,5 +1,5 @@
 # Hosts
-Host lists for common services in adblock and regex syntax. Useful with ([AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)) and ([uBlock Origin](https://github.com/gorhill/uBlock/)).
+Host lists for common services in adblock and regex syntax. View the service-specific pages for references and list mirrors. All project data is publicly available, references are provided for verification purposes.
 
 This project has **no affiliation** with any of the services mentioned. For information regarding specified services, please refer to the respective service website.
 
@@ -14,10 +14,8 @@ Each service will have the following lists. Replace `.txt` with `.sum` for a SHA
 + `*-block-adb.txt` Adblock syntax block list.
 + `*-allow-adb.txt` Adblock syntax allow list.
 
-Usage of the block lists will break the corresponding services.
-
 ## Editing
-Make changes to hostname lists in the `data` directory.
+Make changes to hosts lists in the `data` directory.
 
 ## Issues
 Open new issues in the [Codeberg Issue Tracker](https://codeberg.org/aao-fyi/hosts/issues).
