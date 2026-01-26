@@ -27,6 +27,7 @@ Datadog are properties of [Datadog Inc](https://datadoghq.com/).
 + Crunchbase. "Ozcode." 2025. https://crunchbase.com/organization/ozcode.
 + Crunchbase. "Quickwit." 2025. https://crunchbase.com/organization/quickwit.
 + Crunchbase. "Seekret." 2025. https://crunchbase.com/organization/seekret.
++ Crunchbase. "Sqreen." 2025. https://crunchbase.com/organization/sqreen.
 + Crunchbase. "Timber." 2025. https://crunchbase.com/organization/timber.
 + Crunchbase. "Undefined Labs." 2025. https://crunchbase.com/organization/undefined-labs.
 + Datadog. "Datadog Acquires Logmatic.io, Adding Log Management to its Full-Stack Cloud Monitoring Platform." 2017. https://datadoghq.com/about/latest-news/press-releases/acquisition-logmatic-log-management/.
@@ -49,6 +50,7 @@ Datadog are properties of [Datadog Inc](https://datadoghq.com/).
 + PitchBook. "OzCode." 2025. https://pitchbook.com/profiles/company/234530-74.
 + PitchBook. "Quickwit." 2025. https://pitchbook.com/profiles/company/481651-21.
 + PitchBook. "Seekret." 2025. https://pitchbook.com/profiles/company/453497-59.
++ PitchBook. "Sqreen." 2025. https://pitchbook.com/profiles/company/157335-04.
 + PitchBook. "Timber Technologies." 2025. https://pitchbook.com/profiles/company/155729-98.
 + PitchBook. "Undefined Labs." 2025. https://pitchbook.com/profiles/company/399575-53.
 + Wikipedia. "Datadog." 2025. https://wikipedia.org/wiki/Datadog.
