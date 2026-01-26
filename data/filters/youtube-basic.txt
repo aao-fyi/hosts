@@ -16,6 +16,7 @@ youtube.com###comments
 youtube.com###chat-container
 youtube.com###comment-teaser
 youtube.com###teaser-carousel
+youtube.com##ytd-merch-shelf-renderer
 
 ! Sidebar - Sections
 youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text("Explore"))
