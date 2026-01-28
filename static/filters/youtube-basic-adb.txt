@@ -14,7 +14,7 @@ youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text("Explor
 youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text("More from YouTube"))
 youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text("Settings"))
 youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text("Shorts"))
-youtube.com##ytd-mini-guide-entry-renderer:has(yt-formatted-string:has-text("Shorts"))
+youtube.com##ytd-mini-guide-entry-renderer:has([title="Shorts"])
 youtube.com##ytd-rich-section-renderer
 youtube.com##ytd-rich-item-renderer:has(.yt-lockup-metadata-view-model__title:has-text("/#Shorts/i"))
 youtube.com##ytd-rich-item-renderer:has(.yt-lockup-view-model__content-image:has([overlay-style="SHORTS"]))
