@@ -10,7 +10,7 @@ Free Speech Systems are properties of [Free Speech Systems LLC](https://infowars
 
 ## Lists
 
-{{< hosts-lists "news/infowars" >}}
+{{< hosts-lists "news/free-speech-systems" >}}
 
 ## References
 
