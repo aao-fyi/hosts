@@ -25,7 +25,7 @@ youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:has-text("Settin
 
 ! Sidebar - Entries
 youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text("Shorts"))
-youtube.com##ytd-mini-guide-entry-renderer:has(yt-formatted-string:has-text("Shorts"))
+youtube.com##ytd-mini-guide-entry-renderer:has([title="Shorts"])
 
 ! Rich Sections - Shorts / YouTubeTV / Features
 youtube.com##ytd-rich-section-renderer
