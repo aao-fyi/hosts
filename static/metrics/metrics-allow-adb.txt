@@ -57,6 +57,7 @@
 @@||loris.ai^
 @@||lucidustech.com^
 @@||madumbo.com^
+@@||marketing-website-dfh.pages.dev^
 @@||maxifier.com^
 @@||mediametrix.com^
 @@||metaplane.dev^
@@ -73,6 +74,7 @@
 @@||nr-ext.net^
 @@||nr-synthetics-production-eu.s3.eu-central-1.amazonaws.com^
 @@||nr-synthetics-production.s3.amazonaws.com^
+@@||o175220.ingest.us.sentry.io^
 @@||onenr.io^
 @@||onetrust.com^
 @@||onetrust.io^
@@ -80,6 +82,7 @@
 @@||oz-code.com^
 @@||perimeterx.com^
 @@||perimeterx.net^
+@@||persona-id.github.io^
 @@||piano.io^
 @@||pianomedia.com^
 @@||pixielabs.ai^
@@ -119,6 +122,8 @@
 @@||vector.dev^
 @@||venntel.com^
 @@||whiteops.com^
+@@||withpersona.com^
+@@||withpersona.net^
 @@||withpixie.ai^
 @@||xlgmedia.com^
 @@||zqtk.net^

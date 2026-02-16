@@ -1,0 +1,5 @@
+||marketing-website-dfh.pages.dev^
+||o175220.ingest.us.sentry.io^
+||persona-id.github.io^
+||withpersona.com^
+||withpersona.net^
