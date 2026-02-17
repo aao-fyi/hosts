@@ -1,7 +1,10 @@
-description = ''
+description = 'Host lists for common services in adblock and regex syntax.'
 
 [postCSS]
   state = true
+
+[head]
+  responseHeaders = true
 
 [banner]
   home = false
