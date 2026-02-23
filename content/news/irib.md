@@ -1,10 +1,10 @@
 ---
 title: IRIB
 description: IRIB hosts lists.
+layout: hosts
+services: [HispanTV, Al-Alam News Network, IRINN, Jame-e Jam, Press TV]
 draft: false
 ---
-
-Hosts lists including IRIB.
 
 IRIB are properties of [IRIB](https://irib.ir/).
 

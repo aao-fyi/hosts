@@ -1,10 +1,10 @@
 ---
 title: TeamViewer
 description: TeamViewer hosts lists.
+layout: hosts
+services: [Hapibot Studio, Ubimax, Upskill, VISCOPIC, Xaleon]
 draft: false
 ---
-
-Hosts lists including TeamViewer, Hapibot Studio, Ubimax, Upskill, VISCOPIC, and Xaleon.
 
 TeamViewer are properties of [TeamViewer](https://teamviewer.com/).
 

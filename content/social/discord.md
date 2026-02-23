@@ -1,10 +1,10 @@
 ---
 title: Discord
 description: Discord hosts lists.
+layout: hosts
+services: [Gas, Sentropy Technologies, Ubiquity6]
 draft: false
 ---
-
-Hosts lists including Discord, Gas, Sentropy Technologies, and Ubiquity6.
 
 Discord are properties of [Discord Inc](https://discord.com/).
 

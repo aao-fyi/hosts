@@ -1,10 +1,10 @@
 ---
 title: Roku
 description: Roku hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including Roku.
 
 Roku are properties of [Roku](https://roku.com/).
 

@@ -1,10 +1,10 @@
 ---
 title: Free Speech Systems
 description: Free Speech Systems hosts lists.
+layout: hosts
+services: [InfoWars]
 draft: false
 ---
-
-Hosts lists including Free Speech Systems and InfoWars.
 
 Free Speech Systems are properties of [Free Speech Systems LLC](https://infowars.com/).
 

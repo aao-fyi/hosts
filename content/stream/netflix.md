@@ -1,10 +1,10 @@
 ---
 title: Netflix
 description: Netflix hosts lists.
+layout: hosts
+services: [Animal Logic, Boss Fight Entertainment, Millarworld, Next Games, Night School Studios, Scanline VFX, Spry Fox, StoryBots, The Roald Dahl Story]
 draft: false
 ---
-
-Hosts lists including Netflix.
 
 Netflix are properties of [Netflix, Inc](https://netflix.com/).
 

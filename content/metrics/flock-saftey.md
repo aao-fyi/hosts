@@ -1,10 +1,10 @@
 ---
 title: Flock Saftey
 description: Flock Saftey hosts lists.
+layout: hosts
+services: [Aerodome, Lucidus Tech, Uniform Sierra Aerospace]
 draft: false
 ---
-
-Hosts lists including Flock Saftey, Aerodome, Lucidus Tech, and Uniform Sierra Aerospace.
 
 Flock Saftey are properties of [Flock Group Inc](https://flocksafety.com/).
 

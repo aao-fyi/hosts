@@ -1,10 +1,10 @@
 ---
 title: ThumbmarkJS
 description: ThumbmarkJS hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including ThumbmarkJS.
 
 ThumbmarkJS are properties of [ThumbmarkJS](https://thumbmarkjs.com/).
 

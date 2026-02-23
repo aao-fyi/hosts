@@ -1,10 +1,10 @@
 ---
 title: TurnCommerce
 description: TurnCommerce hosts lists.
+layout: hosts
+services: [DropCatch, HugeDomains, NameBright]
 draft: false
 ---
-
-Hosts lists including TurnCommerce, DropCatch, HugeDomains, and NameBright.
 
 TurnCommerce are properties of [TurnCommerce, Inc](https://turncommerce.com/).
 

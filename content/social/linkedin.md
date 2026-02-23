@@ -1,10 +1,10 @@
 ---
 title: LinkedIn
 description: LinkedIn hosts lists.
+layout: hosts
+services: [Drawbridge, EduBrite Systems, Glint, Jumprope, Oribi, Paddle HR, PointDrive, Pulse, Sendbloom, UpCounsel, mSpoke, Connectifier, Bright.com]
 draft: false
 ---
-
-Hosts lists including LinkedIn and others.
 
 LinkedIn are properties of [Microsoft Corp](https://microsoft.com/).
 

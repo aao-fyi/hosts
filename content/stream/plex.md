@@ -1,10 +1,10 @@
 ---
 title: Plex
 description: Plex hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including Plex.
 
 Plex are properties of [Plex Inc](https://plex.tv/).
 

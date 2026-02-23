@@ -1,10 +1,10 @@
 ---
 title: Gravatar
 description: Gravatar hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including Gravatar.
 
 Gravatar are properties of [Automattic Inc.](https://automattic.com/).
 

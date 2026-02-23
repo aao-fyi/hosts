@@ -1,10 +1,10 @@
 ---
 title: LiveRamp
 description: LiveRamp hosts lists.
+layout: hosts
+services: [Acuity Data, Arbor, Circulate, Data Plus Math, DataFleets, Faktor, Habu, Pacific Data Partners, Rakam]
 draft: false
 ---
-
-Hosts lists including LiveRamp.
 
 LiveRamp are properties of [LiveRamp Holdings, Inc](https://liveramp.com/).
 

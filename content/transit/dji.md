@@ -1,10 +1,10 @@
 ---
 title: DJI
 description: DJI hosts lists.
+layout: hosts
+services: [Hasselblad, MotionPilot, SkyPixel, RoboMaster]
 draft: false
 ---
-
-Hosts lists including DJI.
 
 DJI are properties of [Shenzhen Da-Jiang Innovations Sciences and Technologies Ltd](https://dji.com/).
 

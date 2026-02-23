@@ -1,10 +1,10 @@
 ---
 title: Telly
 description: Telly hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including Telly.
 
 Telly are properties of [Telly](https://telly.com/).
 

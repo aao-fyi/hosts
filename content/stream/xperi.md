@@ -1,10 +1,10 @@
 ---
 title: Xperi
 description: Xperi hosts lists.
+layout: hosts
+services: [DTS, iBiquity, TiVo, Veveo]
 draft: false
 ---
-
-Hosts lists including Xperi, DTS, iBiquity, TiVo, and Veveo.
 
 Xperi are properties of [Xperi Inc](https://xperi.com/).
 

@@ -1,10 +1,10 @@
 ---
 title: TMTG
 description: TMTG hosts lists.
+layout: hosts
+services: [Truth Social, WorldConnect IPTV Solutions, Digital World Acquisition Corp]
 draft: false
 ---
-
-Hosts lists including TMTG and Truth Social.
 
 TMTG are properties of [Trump Media & Technology Group](https://tmtgcorp.com/).
 

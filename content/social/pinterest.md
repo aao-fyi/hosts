@@ -1,10 +1,10 @@
 ---
 title: Pinterest
 description: Pinterest hosts lists.
+layout: hosts
+services: [Curator & Co, Flesky Inc, Hackermeter, Instapaper, Jelly HQ, Livestar, Math Camp, The Yes, URX, VOCHI, tote]
 draft: false
 ---
-
-Hosts lists including Pinterest, Curator & Co, Flesky Inc, Hackermeter, Instapaper, Jelly HQ, Livestar, Math Camp, The Yes, URX, VOCHI, and tote.
 
 Pinterest are properties of [Pinterest, Inc](https://pinterest.com/).
 

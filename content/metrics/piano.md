@@ -1,10 +1,10 @@
 ---
 title: Piano
 description: Piano hosts lists.
+layout: hosts
+services: [AT Internet, Cxense, Maxifier, Newzmate, SocialFlow, Swishu, Tinypass]
 draft: false
 ---
-
-Hosts lists including Piano.
 
 Piano are properties of [Piano Software Inc](https://piano.io/).
 

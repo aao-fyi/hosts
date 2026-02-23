@@ -1,10 +1,10 @@
 ---
 title: GoTo
 description: GoTo hosts lists.
+layout: hosts
+services: [ComVoice, Easy Office Phone, FonAngle, Ionia Corporation, Jive Communications, LastPass, LogMeIn, Nanorep, Speek, Vocalnet, Xmarks, Zamura]
 draft: false
 ---
-
-Hosts lists including GoTo, ComVoice, Easy Office Phone, FonAngle, Ionia Corporation, Jive Communications, LastPass, LogMeIn, Nanorep, Speek, Vocalnet, Xmarks, and Zamura.
 
 GoTo are properties of [Francisco Partners Management, LP](https://franciscopartners.com/).
 

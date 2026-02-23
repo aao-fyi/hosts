@@ -1,10 +1,10 @@
 ---
 title: FingerprintJS
 description: FingerprintJS hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including FingerprintJS.
 
 FingerprintJS are properties of [FingerprintJS Inc](https://fingerprint.com/).
 

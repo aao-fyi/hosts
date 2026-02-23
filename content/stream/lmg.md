@@ -1,10 +1,10 @@
 ---
 title: Linus Media Group
 description: Linus Media Group hosts lists.
+layout: hosts
+services: [Floatplane, Linus Tech Tips]
 draft: false
 ---
-
-Hosts lists including Linus Media Group, Floatplane, and Linus Tech Tips.
 
 Linus Media Group are properties of [Linus Media Group Inc](https://linusmediagroup.com/).
 

@@ -1,10 +1,10 @@
 ---
 title: HUMAN
 description: HUMAN hosts lists.
+layout: hosts
+services: [PerimeterX, Clean.io]
 draft: false
 ---
-
-Hosts lists including HUMAN.
 
 HUMAN are properties of [The Goldman Sachs Group Inc](https://goldmansachs.com/).
 

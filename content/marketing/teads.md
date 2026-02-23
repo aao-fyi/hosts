@@ -1,10 +1,10 @@
 ---
 title: Teads
 description: Teads hosts lists.
+layout: hosts
+services: [Outbrain, AdNgin, BUZZEFF, BeeAd, Beezik, Ligatus, Namao, PromoDigital, Revee, Scribit, Surphace, Veeseo, Video Intelligence, Visual Revenue, Zemanta]
 draft: false
 ---
-
-Hosts lists including Teads and Outbrain.
 
 Teads are properties of [Teads Holding Co](https://teads.com/).
 

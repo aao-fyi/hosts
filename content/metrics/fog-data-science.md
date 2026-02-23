@@ -1,10 +1,10 @@
 ---
 title: FOG Data Science
 description: FOG Data Science hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including FOG Data Science.
 
 FOG Data Science are properties of [FOG Data Science LLC](https://fogdatascience.com/).
 

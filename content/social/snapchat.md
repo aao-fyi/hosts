@@ -1,10 +1,10 @@
 ---
 title: Snapchat
 description: Snapchat hosts lists.
+layout: hosts
+services: [AddLive, Bitstrips, Spectacles, Cimagine Media, Seene, Vergence Labs, Vurb, Zenly]
 draft: false
 ---
-
-Hosts lists including Snapchat, AddLive, Bitstrips, and Spectacles.
 
 Snapchat are properties of [Snap Inc](https://snap.com/).
 

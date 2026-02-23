@@ -1,10 +1,10 @@
 ---
 title: Tesla
 description: Tesla hosts lists.
+layout: hosts
+services: [DeepScale, Grohmann Engineering, Hibar Systems, Maxwell Technologies, Perbix, Riviera Tool, SolarCity, Springpower, Wiferion, Zep Solar]
 draft: false
 ---
-
-Hosts lists including Tesla, DeepScale, Grohmann Engineering, Hibar Systems, Maxwell Technologies, Perbix, Riviera Tool, SolarCity, Springpower, Wiferion, and Zep Solar.
 
 Tesla are properties of [Tesla Inc](https://tesla.com/).
 

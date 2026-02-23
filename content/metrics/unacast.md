@@ -1,10 +1,10 @@
 ---
 title: Unacast
 description: Unacast hosts lists.
+layout: hosts
+services: [Gravy Analytics, Venntel]
 draft: false
 ---
-
-Hosts lists including Unacast, Gravy Analytics, and Venntel.
 
 Unacast are properties of [Unacast](https://unacast.com/).
 

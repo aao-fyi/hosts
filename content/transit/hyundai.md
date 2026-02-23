@@ -1,10 +1,10 @@
 ---
 title: Hyundai
 description: Hyundai hosts lists.
+layout: hosts
+services: [42dot, Boston Dynamics, Kia]
 draft: false
 ---
-
-Hosts lists including Hyundai, 42dot, Boston Dynamics, and Kia.
 
 Hyundai are properties of [Hyundai Motor Group](https://hyundaimotorgroup.com/).
 

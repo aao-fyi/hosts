@@ -1,10 +1,10 @@
 ---
 title: OneSignal
 description: OneSignal hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including OneSignal.
 
 OneSignal are properties of [OneSignal, Inc](https://onesignal.com/).
 

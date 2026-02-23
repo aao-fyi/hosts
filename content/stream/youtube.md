@@ -1,10 +1,10 @@
 ---
 title: YouTube
 description: YouTube hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including YouTube.
 
 YouTube are properties of [Google LLC](https://google.com/).
 

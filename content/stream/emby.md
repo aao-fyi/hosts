@@ -1,10 +1,10 @@
 ---
 title: Emby
 description: Emby hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including Emby.
 
 Emby are properties of [Emby](https://emby.media/).
 

@@ -1,10 +1,10 @@
 ---
 title: Paradox Interactive
 description: Paradox Interactive hosts lists.
+layout: hosts
+services: [Haemimount Games, Harebrained Schemes, Iceflake Studios, Playiron Game Studio, Triumph Studios, White Wolf Publishing, Colossal Order]
 draft: false
 ---
-
-Hosts lists including Paradox Interactive, Haemimount Games, Harebrained Schemes, Iceflake Studios, Playiron Game Studio, Triumph Studios, White Wolf Publishing, and Colossal Order.
 
 Paradox Interactive are properties of [Paradox Interactive AB](https://paradoxinteractive.com/). Colossal Order are properties of [Colossal Order Ltd](https://colossalorder.fi/).
 

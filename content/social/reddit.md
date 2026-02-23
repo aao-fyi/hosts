@@ -1,10 +1,10 @@
 ---
 title: Reddit
 description: Reddit hosts lists.
+layout: hosts
+services: [Alien Blue, Dubsmash, MeaningCloud, Oterlu, Spell, Spiketrap]
 draft: false
 ---
-
-Hosts lists including Reddit, Alien Blue, Dubsmash, MeaningCloud, Oterlu, Spell, and Spiketrap.
 
 Reddit are properties of [Reddit Inc](https://redditinc.com/).
 

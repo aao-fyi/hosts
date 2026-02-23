@@ -1,10 +1,10 @@
 ---
 title: ContentSquare
 description: ContentSquare hosts lists.
+layout: hosts
+services: [Auryc, Clicktale, Dareboost, Heap, HotJar, Loris, PingPong, UpStride]
 draft: false
 ---
-
-Hosts lists including ContentSquare, Auryc, Clicktale, Dareboost, Heap, HotJar, Loris, PingPong, and UpStride.
 
 ContentSquare are properties of [ContentSquare](https://contentsquare.com/).
 

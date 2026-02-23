@@ -1,10 +1,10 @@
 ---
 title: Klaviyo
 description: Klaviyo hosts lists.
+layout: hosts
+services: [Blueprint, Napkin Technologies]
 draft: false
 ---
-
-Hosts lists including Klaviyo.
 
 Klaviyo are properties of [Klaviyo, Inc](https://klaviyo.com/).
 

@@ -1,10 +1,10 @@
 ---
 title: Comscore
 description: Comscore hosts lists.
+layout: hosts
+services: [ARSgroup, Certifica.com, M:Metrics, Nedstat, Proximic, Rentrak, Shareablee, TNS Metrix]
 draft: false
 ---
-
-Hosts lists including Comscore.
 
 Comscore are properties of [Comscore, Inc](https://comscore.com/).
 

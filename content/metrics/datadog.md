@@ -1,10 +1,10 @@
 ---
 title: Datadog
 description: Datadog hosts lists.
+layout: hosts
+services: [Actiondesk, Cloudcraft, CoScreen, Codiga, Eppo, Hdiv Security, Madumbo, Metaplane, Mortar, Ozcode, Quickwit, Seekret, Sqreen, Timber, Undefined Labs]
 draft: false
 ---
-
-Hosts lists including Datadog.
 
 Datadog are properties of [Datadog Inc](https://datadoghq.com/).
 

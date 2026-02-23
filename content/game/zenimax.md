@@ -1,10 +1,10 @@
 ---
 title: ZeniMax
 description: ZeniMax hosts lists.
+layout: hosts
+services: [Arkane Studios, Alpha Dog Games, Bethesda Game Studios, Bethesda Softworks, Escalation Studios]
 draft: false
 ---
-
-Hosts lists including ZeniMax, Arkane Studios, Bethesda Game Studios, Bethesda Softworks, and others.
 
 ZeniMax are properties of [ZeniMax Media Inc](https://zenimax.com/).
 

@@ -1,10 +1,10 @@
 ---
 title: TrueAnthem
 description: TrueAnthem hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including TrueAnthem.
 
 TrueAnthem are properties of [TrueAnthem Corp](https://trueanthem.com/).
 

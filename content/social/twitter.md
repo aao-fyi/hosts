@@ -1,10 +1,10 @@
 ---
 title: Twitter
 description: Twitter hosts lists.
+layout: hosts
+services: [Periscope, Vine, X]
 draft: false
 ---
-
-Hosts lists including Twitter, Periscope, Vine, and X.
 
 Twitter are properties of [X.AI Corp](https://x.ai/).
 

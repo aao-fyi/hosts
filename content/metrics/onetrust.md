@@ -1,10 +1,10 @@
 ---
 title: OneTrust
 description: OneTrust hosts lists.
+layout: hosts
+services: [Planetly, Tugboat Logic, Asanalyzer, Convercent, DataGuidance, Integris Software, Shared Assessments]
 draft: false
 ---
-
-Hosts lists including OneTrust.
 
 OneTrust are properties of [OneTrust LLC](https://onetrust.com/).
 

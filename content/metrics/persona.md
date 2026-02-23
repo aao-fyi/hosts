@@ -1,10 +1,10 @@
 ---
 title: Persona
 description: Persona hosts lists.
+layout: hosts
+services: []
 draft: false
 ---
-
-Hosts lists including Persona.
 
 Persona are properties of [Persona Identities Inc](https://withpersona.com/).
 

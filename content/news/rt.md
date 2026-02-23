@@ -1,10 +1,10 @@
 ---
 title: RT
 description: RT hosts lists.
+layout: hosts
+services: [Maffick, Ruptly]
 draft: false
 ---
-
-Hosts lists including RT.
 
 RT are properties of [RT](https://rt.com/).
 

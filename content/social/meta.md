@@ -1,10 +1,10 @@
 ---
 title: Meta
 description: Meta hosts lists.
+layout: hosts
+services: [Facebook, Instagram, WhatsApp, Threads]
 draft: false
 ---
-
-Hosts lists including Meta, Facebook, Instagram, Threads, WhatsApp, and others.
 
 Meta are properties of [Meta Platforms, Inc](https://meta.com/).
 

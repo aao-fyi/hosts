@@ -1,10 +1,10 @@
 ---
 title: DesignContest
 description: DesignContest hosts lists.
+layout: hosts
+services: [PerfectDomain]
 draft: false
 ---
-
-Hosts lists including DesignContest and PerfectDomain.
 
 DesignContest are properties of [DesignContest LLC](https://designcontest.com/).
 

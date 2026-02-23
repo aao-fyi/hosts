@@ -1,10 +1,10 @@
 ---
 title: New Relic
 description: New Relic hosts lists.
+layout: hosts
+services: [CoScale, CodeStream, Ducksboard, IOpipe, Immediately, Opsmatic, SignifAI]
 draft: false
 ---
-
-Hosts lists including New Relic.
 
 New Relic are properties of [Francisco Partners Management, LP](https://franciscopartners.com/) and [TPG Inc](https://tpg.com/).
 

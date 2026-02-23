@@ -1,10 +1,10 @@
 ---
 title: ByteDance
 description: ByteDance hosts lists.
+layout: hosts
+services: [Baike, Douyin, Feishu, GeoGif, Jukedeck, Lark, Lemon8, Musical.ly, Nuverse, Pangle, PICO, TikTok, Tokopedia, Topbuzz, Toutiao, Volcengine, Xigua Video]
 draft: false
 ---
-
-Hosts lists including ByteDance, Baike, Douyin, Feishu, GeoGif, Jukedeck, Lark, Lemon8, Musical.ly, Nuverse, Pangle, PICO, TikTok, Tokopedia, Topbuzz, Toutiao, Volcengine, and Xigua Video.
 
 ByteDance are properties of [ByteDance Ltd](https://bytedance.com/).
 
