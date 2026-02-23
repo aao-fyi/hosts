@@ -1,0 +1,18 @@
+{{/* Main */}}
+{{ define "main" }}
+<div class="container">
+  {{/* Services */}}
+  {{ $services := sort .Page.Params.services }}
+  <p>
+  Hosts lists including
+  {{ if $services }}
+    {{ .Page.Title }}, {{ delimit $services ", "  ", and " }}.
+  {{ else }}
+    {{ .Page.Title }}.
+  {{ end }}
+  </p>
+
+  {{/* Content */}}
+  {{ .Content | safeHTML }}
+</div>
+{{ end }}
