@@ -1,0 +1,10 @@
+@@||cookiebot.com^
+@@||cybot.com^
+@@||mcpmanager.ai^
+@@||usercentrics-gmbh.jobs.personio.de^
+@@||usercentrics-sandbox.eu^
+@@||usercentrics.ai^
+@@||usercentrics.co.uk^
+@@||usercentrics.com^
+@@||usercentrics.de^
+@@||usercentrics.eu^

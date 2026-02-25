@@ -5,6 +5,8 @@
 ||blueprint.store^
 ||buzzeff.tv^
 ||circulate.com^
+||cookiebot.com^
+||cybot.com^
 ||datafleets.com^
 ||dataplusmath.com^
 ||designcontest.com^
@@ -23,6 +25,7 @@
 ||ligatus.com^
 ||liveobjects.ai^
 ||liveramp.com^
+||mcpmanager.ai^
 ||namebright.com^
 ||namebright.net^
 ||napkin.io^
@@ -47,6 +50,13 @@
 ||togai.com^
 ||trigami.com^
 ||turncommerce.com^
+||usercentrics-gmbh.jobs.personio.de^
+||usercentrics-sandbox.eu^
+||usercentrics.ai^
+||usercentrics.co.uk^
+||usercentrics.com^
+||usercentrics.de^
+||usercentrics.eu^
 ||veeseo.com^
 ||verticalacuity.com^
 ||vi.ai^
